@@ -28,7 +28,7 @@ rm(list=ls())
 
 
 # Define path functions
-paste_inp <- function(x){paste0("02_raw_data/" , x)}
+paste_inp <- function(x){paste0("02_raw_data/01_census_likelihood_eviction/"  , x)}
 paste_out <- function(x){paste0("03_clean_data/01_census_likelihood_eviction/", x)}
 paste_fig <- function(x){paste0("04_figures/01_census_likelihood_eviction/"   , x)}
 
@@ -36,7 +36,7 @@ paste_fig <- function(x){paste0("04_figures/01_census_likelihood_eviction/"   , 
 # 1. Load data -----------------------------------------------------------------
 
 # Import data on likelihood of being evicted from the Census Data 
-df_raw <- read_xlsx(paste_inp("housing3b_week33.xlsx"), skip = 5) |>
+df_raw <- read_xlsx(paste_inp("housing3b_week49.xlsx"), skip = 5) |>
   rename(group = 1, total = 2)
 
 # Note: These data are experimental. Users should take caution using estimates
@@ -70,9 +70,43 @@ df_total <- df_raw                                        |>
 # Verify that the sum of probabilities equals one
 sum(df_total$prob)
 
+# ---- Months behind rental payment
+df_months <- df_raw                                       |>
+  slice(4:13)                                             |>
+  pivot_longer(cols = -c(group, total),                 
+               names_to = "likelihood",                 
+               values_to = "subtotal")                    |>
+  mutate_at(                
+    .vars = c("total", "subtotal"),                 
+    .funs = ~as.numeric(.))                               |>
+  mutate(         
+    prob = subtotal/total,         
+    category = "Months behind on rental payments")        |>
+  select(category, group, likelihood, subtotal, prob)     |>
+  glimpse()
+
+
+
+# ---- Months behind rental payment
+df_rental <- df_raw                                       |>
+  slice(15:19)                                            |>
+  pivot_longer(cols = -c(group, total),                 
+               names_to = "likelihood",                 
+               values_to = "subtotal")                    |>
+  mutate_at(                
+    .vars = c("total", "subtotal"),                 
+    .funs = ~as.numeric(.))                               |>
+  mutate(         
+    prob = subtotal/total,         
+    category = "Household rental assistance throught state or local gobernment")        |>
+  select(category, group, likelihood, subtotal, prob)     |>
+  glimpse()
+
+
+
 # ---- Age
 df_age <- df_raw                                          |>
-  slice(4:8)                                              |>
+  slice(21:25)                                              |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -90,7 +124,7 @@ sum(df_age$prob[df_age$group == unique(df_age$group)[1]])
 
 # ---- Sex
 df_sex <- df_raw                                          |>
-  slice(10:11)                                            |>
+  slice(27:28)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -99,7 +133,7 @@ df_sex <- df_raw                                          |>
     .funs = ~as.numeric(.))                               |>
   mutate(               
     prob = subtotal/total,              
-    category = "Sex")                                     |>
+    category = "Sex at birth")                            |>
   select(category, group, likelihood, subtotal, prob)     |>
   glimpse()
 
@@ -107,9 +141,55 @@ df_sex <- df_raw                                          |>
 # Verify that the sum of one group equals one
 sum(df_sex$prob[df_sex$group == unique(df_sex$group)[1]])
 
+# ---- Gender identity
+df_gender <- df_raw                                       |>
+  slice(30:34)                                            |>
+  pivot_longer(cols = -c(group, total),                 
+               names_to = "likelihood",                 
+               values_to = "subtotal")                    |>
+  mutate_at(                
+    .vars = c("total", "subtotal"),                 
+    .funs = ~as.numeric(.))                               |>
+  mutate(               
+    prob = subtotal/total,              
+    category = "Gender identity")                         |>
+  select(category, group, likelihood, subtotal, prob)     |>
+  glimpse()
+
+# ---- Sexual orientation
+df_orientation <- df_raw                                  |>
+  slice(36:41)                                            |>
+  pivot_longer(cols = -c(group, total),                 
+               names_to = "likelihood",                 
+               values_to = "subtotal")                    |>
+  mutate_at(                
+    .vars = c("total", "subtotal"),                 
+    .funs = ~as.numeric(.))                               |>
+  mutate(               
+    prob = subtotal/total,              
+    category = "Sexual orientation")                      |>
+  select(category, group, likelihood, subtotal, prob)     |>
+  glimpse()
+
+
+# ---- LGBT
+df_lgbt <- df_raw                                         |>
+  slice(43:46)                                            |>
+  pivot_longer(cols = -c(group, total),                 
+               names_to = "likelihood",                 
+               values_to = "subtotal")                    |>
+  mutate_at(                
+    .vars = c("total", "subtotal"),                 
+    .funs = ~as.numeric(.))                               |>
+  mutate(               
+    prob = subtotal/total,              
+    category = "LBGT")                                    |>
+  select(category, group, likelihood, subtotal, prob)     |>
+  glimpse()
+
 # ---- Race
 df_race <- df_raw                                         |>
-  slice(13:17)                                            |>
+  slice(47:52)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -128,7 +208,7 @@ sum(df_race$prob[df_race$group == unique(df_race$group)[1]])
 
 # ---- Education 
 df_educ <- df_raw                                         |>
-  slice(19:22)                                            |>
+  slice(54:57)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -148,7 +228,7 @@ sum(df_educ$prob[df_educ$group == unique(df_educ$group)[1]], na.rm = T)
 
 # ---- Marital status                                                  
 df_marital <- df_raw                                      |>
-  slice(24:28)                                            |>
+  slice(59:63)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -167,7 +247,7 @@ sum(df_marital$prob[df_marital$group == unique(df_marital$group)[1]], na.rm = T)
 
 # ---- Household size  
 df_household <- df_raw                                    |>
-  slice(30:37)                                            |>
+  slice(65:71)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -187,7 +267,7 @@ sum(df_household$prob[df_household$group == unique(df_household$group)[1]], na.r
 
 # ---- Children
 df_children <- df_raw                                     |>
-  slice(38:39)                                            |>
+  slice(73:74)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -207,7 +287,7 @@ sum(df_children$prob[df_children$group == unique(df_children$group)[1]], na.rm =
 
 # ---- Unemployment
 df_unemployment <- df_raw                                 |>
-  slice(41:43)                                            |>
+  slice(76:78)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -216,7 +296,27 @@ df_unemployment <- df_raw                                 |>
     .funs = ~as.numeric(.))                               |>
   mutate(               
     prob = subtotal/total,              
-    category = "Unemployment")                            |>
+    category = "Loss of employment income in last 4 weeks")            |>
+  select(category, group, likelihood, subtotal, prob)     |>
+  glimpse()
+
+
+# Verify that the sum of one group equals one
+sum(df_unemployment$prob[df_unemployment$group == unique(df_unemployment)[1]], na.rm = T)
+
+
+# ---- Employment
+df_employment <- df_raw                                   |>
+  slice(80:82)                                            |>
+  pivot_longer(cols = -c(group, total),                 
+               names_to = "likelihood",                 
+               values_to = "subtotal")                    |>
+  mutate_at(                
+    .vars = c("total", "subtotal"),                 
+    .funs = ~as.numeric(.))                               |>
+  mutate(               
+    prob = subtotal/total,              
+    category = "Respondent employed in the last 7 days")  |>
   select(category, group, likelihood, subtotal, prob)     |>
   glimpse()
 
@@ -227,7 +327,7 @@ sum(df_unemployment$prob[df_unemployment$group == unique(df_unemployment)[1]], n
 
 # ---- Household income
 df_income <- df_raw                                       |>
-  slice(49:57)                                            |>
+  slice(84:92)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -246,7 +346,7 @@ sum(df_income$prob[df_income$group == unique(df_income)[1]], na.rm = T)
 
 # ---- Money sources
 df_money <- df_raw                                        |>
-  slice(59:68)                                            |>
+  slice(94:105)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -255,14 +355,14 @@ df_money <- df_raw                                        |>
     .funs = ~as.numeric(.))                               |>
   mutate(               
     prob = subtotal/total,              
-    category = "Money sources")                           |>
+    category = "Income sources used in the last 7 days to meet spending needs")                           |>
   select(category, group, likelihood, subtotal, prob)     |>
   glimpse()
 
 
 # ---- Active duty military
 df_military <- df_raw                                     |>
-  slice(70:75)                                            |>
+  slice(107:112)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -279,7 +379,7 @@ df_military <- df_raw                                     |>
 
 # ---- Difficulty seeing
 df_seeing <- df_raw                                       |>
-  slice(77:81)                                            |>
+  slice(114:118)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -295,7 +395,7 @@ df_seeing <- df_raw                                       |>
 
 # ---- Difficulty hearing
 df_hearing<- df_raw                                       |>
-  slice(82:87)                                            |>
+  slice(120:124)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -311,7 +411,7 @@ df_hearing<- df_raw                                       |>
 
 # ---- Difficulty remembering or concentratig
 df_remembering <- df_raw                                  |>
-  slice(89:93)                                            |>
+  slice(126:130)                                            |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -326,7 +426,7 @@ df_remembering <- df_raw                                  |>
 
 # ---- Difficulty walking of climbings stairs
 df_moving <- df_raw                                       |>
-  slice(95:99)                                            |>
+  slice(132:136)                                          |>
   pivot_longer(cols = -c(group, total),                 
                names_to = "likelihood",                 
                values_to = "subtotal")                    |>
@@ -339,19 +439,54 @@ df_moving <- df_raw                                       |>
   select(category, group, likelihood, subtotal, prob)     |>
   glimpse()
 
+# ---- Difficulty with self-care
+df_care <- df_raw                                         |>
+  slice(138:142)                                          |>
+  pivot_longer(cols = -c(group, total),                 
+               names_to = "likelihood",                 
+               values_to = "subtotal")                    |>
+  mutate_at(                
+    .vars = c("total", "subtotal"),                 
+    .funs = ~as.numeric(.))                               |>
+  mutate(               
+    prob = subtotal/total,              
+    category = "Difficulty with self-care")               |>
+  select(category, group, likelihood, subtotal, prob)     |>
+  glimpse()
+
+
+# ---- Difficulty understanding of being understood
+df_understood <- df_raw                                   |>
+  slice(144:148)                                          |>
+  pivot_longer(cols = -c(group, total),                 
+               names_to = "likelihood",                 
+               values_to = "subtotal")                    |>
+  mutate_at(                
+    .vars = c("total", "subtotal"),                 
+    .funs = ~as.numeric(.))                               |>
+  mutate(               
+    prob = subtotal/total,              
+    category = "Difficulty with self-care")   |>
+  select(category, group, likelihood, subtotal, prob)     |>
+  glimpse()
+
 ## 1.2. Join groups ------------------------------------------------------------
 
 df_unified <- df_total |>
   bind_rows(
-    df_age, df_sex, df_race, df_educ, df_marital, df_household, df_children, 
-    df_unemployment, df_income, df_money, df_military, df_seeing, df_hearing, 
-    df_remembering, df_moving)  |>
+    df_months, df_rental, df_age, df_sex, df_gender, df_orientation, df_lgbt, 
+    df_race, df_educ, df_marital, df_household, df_children, df_unemployment, 
+    df_employment, df_income, df_money, df_military, df_seeing, df_hearing, 
+    df_remembering, df_moving, df_care, df_understood)  |>
   mutate(likelihood = factor(
     likelihood, levels = c("Did not report", 
       "Not likely at all", "Not very likely", "Somewhat likely", "Very likely")))
 
 
+df_census_likelihood_eviction <- df_unified
+
 write.csv(df_unified, file = paste_out("df_census_likelihood_eviction.csv"))
+save(df_census_likelihood_eviction, file = paste_out("df_census_likelihood_eviction.RData"))
 
 
 # 2. Figures -------------------------------------------------------------------

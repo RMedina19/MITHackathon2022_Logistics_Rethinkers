@@ -1,406 +1,626 @@
 "","category","group","likelihood","subtotal","prob"
-"1","Total population","Total","Very likely",1401801,0.188568845806942
-"2","Total population","Total","Somewhat likely",2248120,0.302414817535088
-"3","Total population","Total","Not very likely",2177839,0.292960688844812
-"4","Total population","Total","Not likely at all",1517043,0.204071082521343
-"5","Total population","Total","Did not report",89091,0.0119844307728317
-"6","Age","18 - 24","Very likely",99336,0.227902815059536
-"7","Age","18 - 24","Somewhat likely",112049,0.257069768508959
-"8","Age","18 - 24","Not very likely",119458,0.274067956041939
-"9","Age","18 - 24","Not likely at all",100861,0.231401564686719
-"10","Age","18 - 24","Did not report",4166,0.00955789570284718
-"11","Age","25 - 39","Very likely",706147,0.238275715344765
-"12","Age","25 - 39","Somewhat likely",880797,0.297207996703976
-"13","Age","25 - 39","Not very likely",817363,0.275803414191865
-"14","Age","25 - 39","Not likely at all",536066,0.180885155105108
-"15","Age","25 - 39","Did not report",23199,0.00782805608504065
-"16","Age","40 - 54","Very likely",359054,0.150277762780164
-"17","Age","40 - 54","Somewhat likely",863472,0.36139589137933
-"18","Age","40 - 54","Not very likely",730669,0.30581278206849
-"19","Age","40 - 54","Not likely at all",406335,0.170066660556011
-"20","Age","40 - 54","Did not report",29740,0.0124473217540595
-"21","Age","55 - 64","Very likely",142936,0.134617576118886
-"22","Age","55 - 64","Somewhat likely",297443,0.28013275657308
-"23","Age","55 - 64","Not very likely",265696,0.250233331732268
-"24","Age","55 - 64","Not likely at all",332974,0.313595964561831
-"25","Age","55 - 64","Did not report",22744,0.0214203710139359
-"26","Age","65 and above","Very likely",94329,0.161690595688662
-"27","Age","65 and above","Somewhat likely",94360,0.161743733201689
-"28","Age","65 and above","Not very likely",244653,0.419362966924469
-"29","Age","65 and above","Not likely at all",140807,0.241359154736438
-"30","Age","65 and above","Did not report",9243,0.0158435494487412
-"31","Sex","Male","Very likely",605324,0.198345016865048
-"32","Sex","Male","Somewhat likely",894030,0.292944597319549
-"33","Sex","Male","Not very likely",842491,0.276056940751813
-"34","Sex","Male","Not likely at all",662730,0.217155098801589
-"35","Sex","Male","Did not report",47299,0.0154983462620016
-"36","Sex","Female","Very likely",796477,0.18176019695022
-"37","Sex","Female","Somewhat likely",1354090,0.309010385847078
-"38","Sex","Female","Not very likely",1335348,0.304733363897617
-"39","Sex","Female","Not likely at all",854313,0.194958673178426
-"40","Sex","Female","Did not report",41792,0.00953715192145359
-"41","Race","Hispanic or Latino (may be of any race)","Very likely",509124,0.26087852119442
-"42","Race","Hispanic or Latino (may be of any race)","Somewhat likely",472166,0.241940996374723
-"43","Race","Hispanic or Latino (may be of any race)","Not very likely",612516,0.313857269128781
-"44","Race","Hispanic or Latino (may be of any race)","Not likely at all",327291,0.167706083547904
-"45","Race","Hispanic or Latino (may be of any race)","Did not report",30477,0.015616617347527
-"46","Race","White alone, not Hispanic","Very likely",369418,0.134932328926635
-"47","Race","White alone, not Hispanic","Somewhat likely",856071,0.31268550464935
-"48","Race","White alone, not Hispanic","Not very likely",899655,0.328604844324023
-"49","Race","White alone, not Hispanic","Not likely at all",590967,0.215854543170032
-"50","Race","White alone, not Hispanic","Did not report",21692,0.00792314418646783
-"51","Race","Black alone, not Hispanic","Very likely",425764,0.218205449242443
-"52","Race","Black alone, not Hispanic","Somewhat likely",611939,0.31362074859305
-"53","Race","Black alone, not Hispanic","Not very likely",484459,0.248286829639295
-"54","Race","Black alone, not Hispanic","Not likely at all",401096,0.205563018172854
-"55","Race","Black alone, not Hispanic","Did not report",27949,0.0143239543523573
-"56","Race","Asian alone, not Hispanic","Very likely",38019,0.104384999135136
-"57","Race","Asian alone, not Hispanic","Somewhat likely",105735,0.290306107039995
-"58","Race","Asian alone, not Hispanic","Not very likely",75473,0.207218733783795
-"59","Race","Asian alone, not Hispanic","Not likely at all",136304,0.374236379760529
-"60","Race","Asian alone, not Hispanic","Did not report",8687,0.0238510346796845
-"61","Race","Two or more races + Other races, not Hispanic","Very likely",59477,0.138611300140762
-"62","Race","Two or more races + Other races, not Hispanic","Somewhat likely",202208,0.471246259543408
-"63","Race","Two or more races + Other races, not Hispanic","Not very likely",105736,0.246418017581311
-"64","Race","Two or more races + Other races, not Hispanic","Not likely at all",61385,0.143057899005342
-"65","Race","Two or more races + Other races, not Hispanic","Did not report",286,0.00066652372917696
-"66","Education","Less than high school","Very likely",201778,0.1795029414826
-"67","Education","Less than high school","Somewhat likely",397989,0.354053445755823
-"68","Education","Less than high school","Not very likely",330212,0.293758612499144
-"69","Education","Less than high school","Not likely at all",194115,0.172685889868543
-"70","Education","Less than high school","Did not report",NA,NA
-"71","Education","High school or GED","Very likely",582178,0.207219424547496
-"72","Education","High school or GED","Somewhat likely",964947,0.34346155653225
-"73","Education","High school or GED","Not very likely",814389,0.289872203926996
-"74","Education","High school or GED","Not likely at all",433117,0.15416291151802
-"75","Education","High school or GED","Did not report",14845,0.0052839034752388
-"76","Education","Some college/associate’s degree","Very likely",577897,0.222150508038823
-"77","Education","Some college/associate’s degree","Somewhat likely",687548,0.264301661889708
-"78","Education","Some college/associate’s degree","Not very likely",753747,0.289749348037346
-"79","Education","Some college/associate’s degree","Not likely at all",528493,0.203159020456866
-"80","Education","Some college/associate’s degree","Did not report",53690,0.0206390771653156
-"81","Education","Bachelor’s degree or higher","Very likely",39949,0.0444396240057845
-"82","Education","Bachelor’s degree or higher","Somewhat likely",197636,0.219852049613438
-"83","Education","Bachelor’s degree or higher","Not very likely",279490,0.310907169475499
-"84","Education","Bachelor’s degree or higher","Not likely at all",361318,0.401933366705601
-"85","Education","Bachelor’s degree or higher","Did not report",20557,0.0228677901996774
-"86","Marital status","Married","Very likely",414350,0.146533398545735
-"87","Marital status","Married","Somewhat likely",851134,0.301000501116992
-"88","Marital status","Married","Not very likely",871403,0.308168560620126
-"89","Marital status","Married","Not likely at all",652878,0.230887974359219
-"90","Marital status","Married","Did not report",37918,0.0134095653579273
-"91","Marital status","Widowed","Very likely",91421,0.427672573492263
-"92","Marital status","Widowed","Somewhat likely",41292,0.193166295540877
-"93","Marital status","Widowed","Not very likely",47715,0.223213450347112
-"94","Marital status","Widowed","Not likely at all",33336,0.155947680619749
-"95","Marital status","Widowed","Did not report",NA,NA
-"96","Marital status","Divorced/separated","Very likely",271661,0.17065848326465
-"97","Marital status","Divorced/separated","Somewhat likely",539943,0.339194265755352
-"98","Marital status","Divorced/separated","Not very likely",472830,0.297033621469494
-"99","Marital status","Divorced/separated","Not likely at all",274324,0.172331390089456
-"100","Marital status","Divorced/separated","Did not report",33082,0.0207822394210473
-"101","Marital status","Never married","Very likely",622476,0.224941458760949
-"102","Marital status","Never married","Somewhat likely",792263,0.286296652308404
-"103","Marital status","Never married","Not very likely",785196,0.283742881096239
-"104","Marital status","Never married","Not likely at all",549253,0.198481180075742
-"105","Marital status","Never married","Did not report",18092,0.00653782775866555
-"106","Marital status","Did not report","Very likely",1893,0.0567990878540566
-"107","Marital status","Did not report","Somewhat likely",23488,0.704752760441671
-"108","Marital status","Did not report","Not very likely",694,0.0208233317330773
-"109","Marital status","Did not report","Not likely at all",7253,0.217624819971195
-"110","Marital status","Did not report","Did not report",NA,NA
-"111","Household size","1 person in the household","Very likely",187278,0.257871299807503
-"112","Household size","1 person in the household","Somewhat likely",201758,0.27780944748749
-"113","Household size","1 person in the household","Not very likely",169856,0.233882183172093
-"114","Household size","1 person in the household","Not likely at all",165735,0.22820779735792
-"115","Household size","1 person in the household","Did not report",1618,0.00222789523109249
-"116","Household size","2 people in the household","Very likely",300033,0.175511779932435
-"117","Household size","2 people in the household","Somewhat likely",487613,0.285241375276035
-"118","Household size","2 people in the household","Not very likely",508411,0.297407683645564
-"119","Household size","2 people in the household","Not likely at all",382565,0.223790929963878
-"120","Household size","2 people in the household","Did not report",30854,0.0180488161570073
-"121","Household size","3 people in the household","Very likely",208167,0.151624319967835
-"122","Household size","3 people in the household","Somewhat likely",416086,0.303068002123951
-"123","Household size","3 people in the household","Not very likely",383989,0.279689244693582
-"124","Household size","3 people in the household","Not likely at all",356677,0.2597957772998
-"125","Household size","3 people in the household","Did not report",7994,0.00582265591483219
-"126","Household size","4 people in the household","Very likely",262588,0.177518241069431
-"127","Household size","4 people in the household","Somewhat likely",327320,0.221279230836314
-"128","Household size","4 people in the household","Not very likely",539356,0.364622634812877
-"129","Household size","4 people in the household","Not likely at all",349952,0.236579217248044
-"130","Household size","4 people in the household","Did not report",NA,NA
-"131","Household size","5 people in the household","Very likely",169902,0.159035873914773
-"132","Household size","5 people in the household","Somewhat likely",438962,0.410888072449863
-"133","Household size","5 people in the household","Not very likely",279583,0.261702197365034
-"134","Household size","5 people in the household","Not likely at all",164867,0.154322888634077
-"135","Household size","5 people in the household","Did not report",15011,0.014050967636253
-"136","Household size","6 people in the household","Very likely",137813,0.248335426626326
-"137","Household size","6 people in the household","Somewhat likely",166462,0.299960176377204
-"138","Household size","6 people in the household","Not very likely",179524,0.323497559226377
-"139","Household size","6 people in the household","Not likely at all",49537,0.0892643802020733
-"140","Household size","6 people in the household","Did not report",21610,0.0389406555941378
-"141","Household size","7 or more people in the household","Very likely",136020,0.260189412995698
-"142","Household size","7 or more people in the household","Somewhat likely",209919,0.401549047100749
-"143","Household size","7 or more people in the household","Not very likely",117119,0.224034141013404
-"144","Household size","7 or more people in the household","Not likely at all",47710,0.0912633207912421
-"145","Household size","7 or more people in the household","Did not report",12004,0.022962165222764
-"146","Household size","Presence of children under 18 years old","Very likely",NA,NA
-"147","Household size","Presence of children under 18 years old","Somewhat likely",NA,NA
-"148","Household size","Presence of children under 18 years old","Not very likely",NA,NA
-"149","Household size","Presence of children under 18 years old","Not likely at all",NA,NA
-"150","Household size","Presence of children under 18 years old","Did not report",NA,NA
-"151","Presence of children","Children in household","Very likely",699602,0.176797358863244
-"152","Presence of children","Children in household","Somewhat likely",1419958,0.358839488876152
-"153","Presence of children","Children in household","Not very likely",1147570,0.290003952405357
-"154","Presence of children","Children in household","Not likely at all",660747,0.166978259748845
-"155","Presence of children","Children in household","Did not report",29208,0.00738119281774155
-"156","Presence of children","No children","Very likely",702199,0.201966399669122
-"157","Presence of children","No children","Somewhat likely",828162,0.238195863968447
-"158","Presence of children","No children","Not very likely",1030269,0.296325857229513
-"159","Presence of children","No children","Not likely at all",856296,0.246287761974982
-"160","Presence of children","No children","Did not report",59884,0.0172238295380451
-"161","Unemployment","Yes","Very likely",976600,0.256621887907791
-"162","Unemployment","Yes","Somewhat likely",1464853,0.384920481637713
-"163","Unemployment","Yes","Not very likely",999827,0.262725263486773
-"164","Unemployment","Yes","Not likely at all",316550,0.0831800723092475
-"165","Unemployment","Yes","Did not report",47768,0.0125520318877528
-"166","Unemployment","No","Very likely",425201,0.11730815389072
-"167","Unemployment","No","Somewhat likely",779622,0.215088905135668
-"168","Unemployment","No","Not very likely",1178011,0.324999931027823
-"169","Unemployment","No","Not likely at all",1200493,0.331202460927262
-"170","Unemployment","No","Did not report",41323,0.0114005490185259
-"171","Unemployment","Did not report","Very likely",NA,NA
-"172","Unemployment","Did not report","Somewhat likely",3646,1
-"173","Unemployment","Did not report","Not very likely",NA,NA
-"174","Unemployment","Did not report","Not likely at all",NA,NA
-"175","Unemployment","Did not report","Did not report",NA,NA
-"176","Household income","Less than $25,000","Very likely",728654,0.270510456908272
-"177","Household income","Less than $25,000","Somewhat likely",883782,0.328101228604119
-"178","Household income","Less than $25,000","Not very likely",622709,0.23117871597616
-"179","Household income","Less than $25,000","Not likely at all",427385,0.158665308398419
-"180","Household income","Less than $25,000","Did not report",31097,0.0115446613598176
-"181","Household income","$25,000 - $34,999","Very likely",216953,0.13783869125259
-"182","Household income","$25,000 - $34,999","Somewhat likely",602179,0.382587773664311
-"183","Household income","$25,000 - $34,999","Not very likely",446289,0.283544784724927
-"184","Household income","$25,000 - $34,999","Not likely at all",299510,0.190290368960389
-"185","Household income","$25,000 - $34,999","Did not report",9031,0.00573774605883366
-"186","Household income","$35,000 - $49,999","Very likely",120248,0.102184620300279
-"187","Household income","$35,000 - $49,999","Somewhat likely",307215,0.261065864925406
-"188","Household income","$35,000 - $49,999","Not very likely",383125,0.325572838238843
-"189","Household income","$35,000 - $49,999","Not likely at all",355642,0.302218271678796
-"190","Household income","$35,000 - $49,999","Did not report",10542,0.00895840485667572
-"191","Household income","$50,000 - $74,999","Very likely",121917,0.136364398978584
-"192","Household income","$50,000 - $74,999","Somewhat likely",151913,0.169914982668813
-"193","Household income","$50,000 - $74,999","Not very likely",372710,0.416876851819747
-"194","Household income","$50,000 - $74,999","Not likely at all",238134,0.266353336994563
-"195","Household income","$50,000 - $74,999","Did not report",9379,0.0104904295382936
-"196","Household income","$75,000 - $99,999","Very likely",149807,0.373374041996386
-"197","Household income","$75,000 - $99,999","Somewhat likely",75303,0.187682721664901
-"198","Household income","$75,000 - $99,999","Not very likely",110038,0.274255093775313
-"199","Household income","$75,000 - $99,999","Not likely at all",56817,0.141608822979625
-"200","Household income","$75,000 - $99,999","Did not report",9260,0.0230793195837747
-"201","Household income","$100,000 - $149,999","Very likely",7551,0.052373487959161
-"202","Household income","$100,000 - $149,999","Somewhat likely",36015,0.249798856952613
-"203","Household income","$100,000 - $149,999","Not very likely",63607,0.441176062590168
-"204","Household income","$100,000 - $149,999","Not likely at all",37003,0.256651592498058
-"205","Household income","$100,000 - $149,999","Did not report",NA,NA
-"206","Household income","$150,000 - $199,999","Very likely",NA,NA
-"207","Household income","$150,000 - $199,999","Somewhat likely",7277,0.199380787988383
-"208","Household income","$150,000 - $199,999","Not very likely",2982,0.0817031070195627
-"209","Household income","$150,000 - $199,999","Not likely at all",26239,0.718916104992054
-"210","Household income","$150,000 - $199,999","Did not report",NA,NA
-"211","Household income","$200,000 and above","Very likely",8520,0.170762015472802
-"212","Household income","$200,000 and above","Somewhat likely",9841,0.197238144867118
-"213","Household income","$200,000 and above","Not very likely",1357,0.0271976590371588
-"214","Household income","$200,000 and above","Not likely at all",30175,0.604782138132842
-"215","Household income","$200,000 and above","Did not report",NA,NA
-"216","Household income","Did not report","Very likely",48151,0.103843084819599
-"217","Household income","Did not report","Somewhat likely",174596,0.37653604779055
-"218","Household income","Did not report","Not very likely",175021,0.377452608423731
-"219","Household income","Did not report","Not likely at all",46139,0.0995039789514546
-"220","Household income","Did not report","Did not report",19783,0.042664280014665
-"221","Money sources","Regular income sources like those received before the pandemic","Very likely",298001,0.100930522100323
-"222","Money sources","Regular income sources like those received before the pandemic","Somewhat likely",608250,0.206009342477111
-"223","Money sources","Regular income sources like those received before the pandemic","Not very likely",1067436,0.361531916969006
-"224","Money sources","Regular income sources like those received before the pandemic","Not likely at all",959989,0.325140489396234
-"225","Money sources","Regular income sources like those received before the pandemic","Did not report",18860,0.00638772905732563
-"226","Money sources","Credit cards or loans","Very likely",299075,0.124284194516244
-"227","Money sources","Credit cards or loans","Somewhat likely",740185,0.307592732652366
-"228","Money sources","Credit cards or loans","Not very likely",821096,0.341216266757536
-"229","Money sources","Credit cards or loans","Not likely at all",504945,0.209835936136437
-"230","Money sources","Credit cards or loans","Did not report",41079,0.0170708699374164
-"231","Money sources","Money from savings or selling assets or possessions","Very likely",385103,0.195742693126034
-"232","Money sources","Money from savings or selling assets or possessions","Somewhat likely",625959,0.318166569583927
-"233","Money sources","Money from savings or selling assets or possessions","Not very likely",561924,0.285618437384682
-"234","Money sources","Money from savings or selling assets or possessions","Not likely at all",363034,0.184525316230506
-"235","Money sources","Money from savings or selling assets or possessions","Did not report",31375,0.0159474919614475
-"236","Money sources","Borrowing from friends or family","Very likely",743476,0.208035319297655
-"237","Money sources","Borrowing from friends or family","Somewhat likely",1361262,0.380900761850771
-"238","Money sources","Borrowing from friends or family","Not very likely",1042106,0.29159630499438
-"239","Money sources","Borrowing from friends or family","Not likely at all",374099,0.104678301537552
-"240","Money sources","Borrowing from friends or family","Did not report",52854,0.0147893123196421
-"241","Money sources","Unemployment insurance (UI) benefit payments","Very likely",294188,0.23905537583687
-"242","Money sources","Unemployment insurance (UI) benefit payments","Somewhat likely",454944,0.36968472169065
-"243","Money sources","Unemployment insurance (UI) benefit payments","Not very likely",395303,0.321220808579691
-"244","Money sources","Unemployment insurance (UI) benefit payments","Not likely at all",75871,0.0616523121953281
-"245","Money sources","Unemployment insurance (UI) benefit payments","Did not report",10322,0.0083875942913653
-"246","Money sources","Stimulus (economic impact) payment","Very likely",350930,0.176954603855254
-"247","Money sources","Stimulus (economic impact) payment","Somewhat likely",602905,0.304011670240081
-"248","Money sources","Stimulus (economic impact) payment","Not very likely",562279,0.28352622375154
-"249","Money sources","Stimulus (economic impact) payment","Not likely at all",426369,0.214994322204316
-"250","Money sources","Stimulus (economic impact) payment","Did not report",40680,0.0205126757040769
-"251","Money sources","Money saved from deferred or forgiven payments (to meet spending needs)","Very likely",58135,0.141177699096132
-"252","Money sources","Money saved from deferred or forgiven payments (to meet spending needs)","Somewhat likely",75790,0.184051910458345
-"253","Money sources","Money saved from deferred or forgiven payments (to meet spending needs)","Not very likely",192675,0.467900802844196
-"254","Money sources","Money saved from deferred or forgiven payments (to meet spending needs)","Not likely at all",72854,0.176921993462624
-"255","Money sources","Money saved from deferred or forgiven payments (to meet spending needs)","Did not report",12333,0.0299500225845463
-"256","Money sources","Supplemental Nutrition Assistance Program (SNAP)","Very likely",325481,0.17440496571443
-"257","Money sources","Supplemental Nutrition Assistance Program (SNAP)","Somewhat likely",641899,0.343953635042066
-"258","Money sources","Supplemental Nutrition Assistance Program (SNAP)","Not very likely",676677,0.362588995931385
-"259","Money sources","Supplemental Nutrition Assistance Program (SNAP)","Not likely at all",206833,0.110828903295776
-"260","Money sources","Supplemental Nutrition Assistance Program (SNAP)","Did not report",15347,0.00822350001634305
-"261","Money sources","Other","Very likely",169479,0.35198277043726
-"262","Money sources","Other","Somewhat likely",107760,0.223801552654424
-"263","Money sources","Other","Not very likely",124957,0.25951717348774
-"264","Money sources","Other","Not likely at all",71204,0.147880157342294
-"265","Money sources","Other","Did not report",8099,0.0168204229301056
-"266","Money sources","Did not report","Very likely",4524,0.107670704714758
-"267","Money sources","Did not report","Somewhat likely",9470,0.225384963229169
-"268","Money sources","Did not report","Not very likely",5753,0.136920770164457
-"269","Money sources","Did not report","Not likely at all",22269,0.529999762001095
-"270","Money sources","Did not report","Did not report",NA,NA
-"271","Military duty","Serving on active duty","Very likely",NA,NA
-"272","Military duty","Serving on active duty","Somewhat likely",NA,NA
-"273","Military duty","Serving on active duty","Not very likely",NA,NA
-"274","Military duty","Serving on active duty","Not likely at all",NA,NA
-"275","Military duty","Serving on active duty","Did not report",NA,NA
-"276","Military duty","Serving in Reserve or National Guard","Very likely",NA,NA
-"277","Military duty","Serving in Reserve or National Guard","Somewhat likely",6243,1
-"278","Military duty","Serving in Reserve or National Guard","Not very likely",NA,NA
-"279","Military duty","Serving in Reserve or National Guard","Not likely at all",NA,NA
-"280","Military duty","Serving in Reserve or National Guard","Did not report",NA,NA
-"281","Military duty","Spouse serving on active duty","Very likely",NA,NA
-"282","Military duty","Spouse serving on active duty","Somewhat likely",1154,0.168025626092021
-"283","Military duty","Spouse serving on active duty","Not very likely",5193,0.756115317414094
-"284","Military duty","Spouse serving on active duty","Not likely at all",521,0.0758590564938847
-"285","Military duty","Spouse serving on active duty","Did not report",NA,NA
-"286","Military duty","Spouse serving in Reserve or National Guard","Very likely",NA,NA
-"287","Military duty","Spouse serving in Reserve or National Guard","Somewhat likely",NA,NA
-"288","Military duty","Spouse serving in Reserve or National Guard","Not very likely",2123,1
-"289","Military duty","Spouse serving in Reserve or National Guard","Not likely at all",NA,NA
-"290","Military duty","Spouse serving in Reserve or National Guard","Did not report",NA,NA
-"291","Military duty","No active duty service (self or spouse)","Very likely",1323588,0.181287224928452
-"292","Military duty","No active duty service (self or spouse)","Somewhat likely",2211392,0.302886637616071
-"293","Military duty","No active duty service (self or spouse)","Not very likely",2160459,0.295910522520375
-"294","Military duty","No active duty service (self or spouse)","Not likely at all",1516523,0.207712857936285
-"295","Military duty","No active duty service (self or spouse)","Did not report",89091,0.0122024830658035
-"296","Military duty","Did not report","Very likely",78213,0.661225007397388
-"297","Military duty","Did not report","Somewhat likely",29330,0.247960434543687
-"298","Military duty","Did not report","Not very likely",10741,0.0908061039015936
-"299","Military duty","Did not report","Not likely at all",NA,NA
-"300","Military duty","Did not report","Did not report",NA,NA
-"301","Difficulty seeing","No difficulty","Very likely",702093,0.169456454735777
-"302","Difficulty seeing","No difficulty","Somewhat likely",1143715,0.276045892963082
-"303","Difficulty seeing","No difficulty","Not very likely",1278718,0.308630080184282
-"304","Difficulty seeing","No difficulty","Not likely at all",959145,0.231498264870248
-"305","Difficulty seeing","No difficulty","Did not report",59536,0.0143695486055967
-"306","Difficulty seeing","Some difficulty","Very likely",579394,0.216400278178454
-"307","Difficulty seeing","Some difficulty","Somewhat likely",898294,0.335507567365275
-"308","Difficulty seeing","Some difficulty","Not very likely",729020,0.27228471609588
-"309","Difficulty seeing","Some difficulty","Not likely at all",450533,0.16827144659519
-"310","Difficulty seeing","Some difficulty","Did not report",20177,0.00753599176520065
-"311","Difficulty seeing","A lot of difficulty","Very likely",105657,0.204463649874601
-"312","Difficulty seeing","A lot of difficulty","Somewhat likely",161381,0.312298742917299
-"313","Difficulty seeing","A lot of difficulty","Not very likely",139041,0.26906717342168
-"314","Difficulty seeing","A lot of difficulty","Not likely at all",101294,0.196020528222436
-"315","Difficulty seeing","A lot of difficulty","Did not report",9379,0.0181499055639843
-"316","Difficulty seeing","Cannot do at all","Very likely",9670,0.132329798152583
-"317","Difficulty seeing","Cannot do at all","Somewhat likely",26275,0.359562093739309
-"318","Difficulty seeing","Cannot do at all","Not very likely",31059,0.425029079712624
-"319","Difficulty seeing","Cannot do at all","Not likely at all",6072,0.0830927129661307
-"320","Difficulty seeing","Cannot do at all","Did not report",NA,NA
-"321","Difficulty seeing","Did not report","Very likely",4988,0.21276232724791
-"322","Difficulty seeing","Did not report","Somewhat likely",18456,0.78723767275209
-"323","Difficulty seeing","Did not report","Not very likely",NA,NA
-"324","Difficulty seeing","Did not report","Not likely at all",NA,NA
-"325","Difficulty seeing","Did not report","Did not report",NA,NA
-"326","Difficulty hearing","Difficulty hearing","Very likely",NA,NA
-"327","Difficulty hearing","Difficulty hearing","Somewhat likely",NA,NA
-"328","Difficulty hearing","Difficulty hearing","Not very likely",NA,NA
-"329","Difficulty hearing","Difficulty hearing","Not likely at all",NA,NA
-"330","Difficulty hearing","Difficulty hearing","Did not report",NA,NA
-"331","Difficulty hearing","No difficulty","Very likely",1126736,0.182230660384301
-"332","Difficulty hearing","No difficulty","Somewhat likely",1829111,0.295828042634822
-"333","Difficulty hearing","No difficulty","Not very likely",1766661,0.285727801991939
-"334","Difficulty hearing","No difficulty","Not likely at all",1378811,0.222999566069725
-"335","Difficulty hearing","No difficulty","Did not report",81702,0.0132139289192128
-"336","Difficulty hearing","Some difficulty","Very likely",249346,0.265711716012651
-"337","Difficulty hearing","Some difficulty","Somewhat likely",327660,0.349165821263246
-"338","Difficulty hearing","Some difficulty","Not very likely",230466,0.245592535443006
-"339","Difficulty hearing","Some difficulty","Not likely at all",124610,0.132788723028789
-"340","Difficulty hearing","Some difficulty","Did not report",6327,0.00674226988687223
-"341","Difficulty hearing","A lot of difficulty","Very likely",8231,0.0375109944446723
-"342","Difficulty hearing","A lot of difficulty","Somewhat likely",44880,0.204530850525683
-"343","Difficulty hearing","A lot of difficulty","Not very likely",154535,0.704259692201122
-"344","Difficulty hearing","A lot of difficulty","Not likely at all",10720,0.0488540712485588
-"345","Difficulty hearing","A lot of difficulty","Did not report",1062,0.00483983429719864
-"346","Difficulty hearing","Cannot do at all","Very likely",17489,0.223701713993349
-"347","Difficulty hearing","Cannot do at all","Somewhat likely",31930,0.40841647480174
-"348","Difficulty hearing","Cannot do at all","Not very likely",26177,0.334829879764646
-"349","Difficulty hearing","Cannot do at all","Not likely at all",2585,0.0330647224354055
-"350","Difficulty hearing","Cannot do at all","Did not report",NA,NA
-"351","Difficulty hearing","Did not report","Very likely",NA,NA
-"352","Difficulty hearing","Did not report","Somewhat likely",14539,0.978595948037962
-"353","Difficulty hearing","Did not report","Not very likely",NA,NA
-"354","Difficulty hearing","Did not report","Not likely at all",318,0.0214040519620381
-"355","Difficulty hearing","Did not report","Did not report",NA,NA
-"356","Difficulty remembering or concentrating","No difficulty","Very likely",584814,0.170288808496067
-"357","Difficulty remembering or concentrating","No difficulty","Somewhat likely",901987,0.262644689608904
-"358","Difficulty remembering or concentrating","No difficulty","Not very likely",904007,0.263232882424333
-"359","Difficulty remembering or concentrating","No difficulty","Not likely at all",997147,0.290353812537708
-"360","Difficulty remembering or concentrating","No difficulty","Did not report",46294,0.01348009811755
-"361","Difficulty remembering or concentrating","Some difficulty","Very likely",554333,0.191073276358304
-"362","Difficulty remembering or concentrating","Some difficulty","Somewhat likely",948246,0.326851315028434
-"363","Difficulty remembering or concentrating","Some difficulty","Not very likely",914098,0.315080826457334
-"364","Difficulty remembering or concentrating","Some difficulty","Not likely at all",441679,0.152242521424233
-"365","Difficulty remembering or concentrating","Some difficulty","Did not report",42798,0.014752060731695
-"366","Difficulty remembering or concentrating","A lot of difficulty","Very likely",254600,0.238217318567477
-"367","Difficulty remembering or concentrating","A lot of difficulty","Somewhat likely",384974,0.360202175955208
-"368","Difficulty remembering or concentrating","A lot of difficulty","Not very likely",351417,0.328804459697672
-"369","Difficulty remembering or concentrating","A lot of difficulty","Not likely at all",77781,0.0727760457796424
-"370","Difficulty remembering or concentrating","A lot of difficulty","Did not report",NA,NA
-"371","Difficulty remembering or concentrating","Cannot do at all","Very likely",8054,0.35974629265678
-"372","Difficulty remembering or concentrating","Cannot do at all","Somewhat likely",7509,0.335402894407718
-"373","Difficulty remembering or concentrating","Cannot do at all","Not very likely",6388,0.285331427550473
-"374","Difficulty remembering or concentrating","Cannot do at all","Not likely at all",437,0.0195193853850277
-"375","Difficulty remembering or concentrating","Cannot do at all","Did not report",NA,NA
-"376","Difficulty remembering or concentrating","Did not report","Very likely",NA,NA
-"377","Difficulty remembering or concentrating","Did not report","Somewhat likely",5405,0.737078958134461
-"378","Difficulty remembering or concentrating","Did not report","Not very likely",1928,0.262921041865539
-"379","Difficulty remembering or concentrating","Did not report","Not likely at all",NA,NA
-"380","Difficulty remembering or concentrating","Did not report","Did not report",NA,NA
-"381","Difficulty walking or climbing stairs","No difficulty","Very likely",958392,0.2067577826596
-"382","Difficulty walking or climbing stairs","No difficulty","Somewhat likely",1373128,0.296230457461885
-"383","Difficulty walking or climbing stairs","No difficulty","Not very likely",1066350,0.230047998667627
-"384","Difficulty walking or climbing stairs","No difficulty","Not likely at all",1172164,0.252875680883612
-"385","Difficulty walking or climbing stairs","No difficulty","Did not report",65301,0.0140876488591876
-"386","Difficulty walking or climbing stairs","Some difficulty","Very likely",255769,0.121910518845037
-"387","Difficulty walking or climbing stairs","Some difficulty","Somewhat likely",651745,0.310649731220978
-"388","Difficulty walking or climbing stairs","Some difficulty","Not very likely",906315,0.431988755036926
-"389","Difficulty walking or climbing stairs","Some difficulty","Not likely at all",269075,0.128252731403056
-"390","Difficulty walking or climbing stairs","Some difficulty","Did not report",15103,0.00719874013706348
-"391","Difficulty walking or climbing stairs","A lot of difficulty","Very likely",171400,0.271233431656771
-"392","Difficulty walking or climbing stairs","A lot of difficulty","Somewhat likely",177031,0.280144256940664
-"393","Difficulty walking or climbing stairs","A lot of difficulty","Not very likely",200996,0.318067881151017
-"394","Difficulty walking or climbing stairs","A lot of difficulty","Not likely at all",73813,0.116806028534896
-"395","Difficulty walking or climbing stairs","A lot of difficulty","Did not report",8687,0.0137468192578901
-"396","Difficulty walking or climbing stairs","Cannot do at all","Very likely",16240,0.260661605380158
-"397","Difficulty walking or climbing stairs","Cannot do at all","Somewhat likely",41144,0.660385535206972
-"398","Difficulty walking or climbing stairs","Cannot do at all","Not very likely",2927,0.0469800812159928
-"399","Difficulty walking or climbing stairs","Cannot do at all","Not likely at all",1991,0.0319567276054123
-"400","Difficulty walking or climbing stairs","Cannot do at all","Did not report",NA,NA
-"401","Difficulty walking or climbing stairs","Did not report","Very likely",NA,NA
-"402","Difficulty walking or climbing stairs","Did not report","Somewhat likely",5072,0.802404682803354
-"403","Difficulty walking or climbing stairs","Did not report","Not very likely",1250,0.197753520012656
-"404","Difficulty walking or climbing stairs","Did not report","Not likely at all",NA,NA
-"405","Difficulty walking or climbing stairs","Did not report","Did not report",NA,NA
+"1","Total population","Total","Very likely",1402961,0.198682287710996
+"2","Total population","Total","Somewhat likely",1496819,0.211974119885931
+"3","Total population","Total","Not very likely",2324726,0.329219329675759
+"4","Total population","Total","Not likely at all",1503847,0.212969399952898
+"5","Total population","Total","Did not report",332976,0.0471548627744154
+"6","Months behind on rental payments","Less than 1 month","Very likely",29085,0.0341502304861697
+"7","Months behind on rental payments","Less than 1 month","Somewhat likely",23308,0.0273671504958447
+"8","Months behind on rental payments","Less than 1 month","Not very likely",322158,0.378262676739331
+"9","Months behind on rental payments","Less than 1 month","Not likely at all",433617,0.509132559488445
+"10","Months behind on rental payments","Less than 1 month","Did not report",43511,0.0510885569428822
+"11","Months behind on rental payments","1 month","Very likely",184856,0.0946868494812241
+"12","Months behind on rental payments","1 month","Somewhat likely",479575,0.24564767083545
+"13","Months behind on rental payments","1 month","Not very likely",797202,0.408342416692619
+"14","Months behind on rental payments","1 month","Not likely at all",481303,0.246532786146306
+"15","Months behind on rental payments","1 month","Did not report",9352,0.00479027684440001
+"16","Months behind on rental payments","2 months","Very likely",201895,0.159761941689799
+"17","Months behind on rental payments","2 months","Somewhat likely",418909,0.331487729915709
+"18","Months behind on rental payments","2 months","Not very likely",356059,0.281753769019185
+"19","Months behind on rental payments","2 months","Not likely at all",286862,0.226997350687334
+"20","Months behind on rental payments","2 months","Did not report",NA,NA
+"21","Months behind on rental payments","3 months","Very likely",183475,0.280292521662613
+"22","Months behind on rental payments","3 months","Somewhat likely",190008,0.290272906151082
+"23","Months behind on rental payments","3 months","Not very likely",231663,0.353908742040747
+"24","Months behind on rental payments","3 months","Not likely at all",49438,0.0755258301455581
+"25","Months behind on rental payments","3 months","Did not report",NA,NA
+"26","Months behind on rental payments","4 months","Very likely",149045,0.310189241556139
+"27","Months behind on rental payments","4 months","Somewhat likely",62155,0.129355646341184
+"28","Months behind on rental payments","4 months","Not very likely",220426,0.45874584024458
+"29","Months behind on rental payments","4 months","Not likely at all",48871,0.101709271858097
+"30","Months behind on rental payments","4 months","Did not report",NA,NA
+"31","Months behind on rental payments","5 months","Very likely",13254,0.0519489681933094
+"32","Months behind on rental payments","5 months","Somewhat likely",66221,0.259552785780077
+"33","Months behind on rental payments","5 months","Not very likely",172958,0.677907774315558
+"34","Months behind on rental payments","5 months","Not likely at all",2701,0.0105865522174535
+"35","Months behind on rental payments","5 months","Did not report",NA,NA
+"36","Months behind on rental payments","6 months","Very likely",199133,0.721519904634571
+"37","Months behind on rental payments","6 months","Somewhat likely",17667,0.0640129569442482
+"38","Months behind on rental payments","6 months","Not very likely",52115,0.188828621223156
+"39","Months behind on rental payments","6 months","Not likely at all",7075,0.0256348938914675
+"40","Months behind on rental payments","6 months","Did not report",NA,NA
+"41","Months behind on rental payments","7 months","Very likely",6845,0.189344693092861
+"42","Months behind on rental payments","7 months","Somewhat likely",24371,0.67414456031645
+"43","Months behind on rental payments","7 months","Not very likely",3901,0.107908494924068
+"44","Months behind on rental payments","7 months","Not likely at all",1033,0.0285745899145252
+"45","Months behind on rental payments","7 months","Did not report",NA,NA
+"46","Months behind on rental payments","8 months or more","Very likely",424179,0.558440344507082
+"47","Months behind on rental payments","8 months or more","Somewhat likely",180355,0.237441052795105
+"48","Months behind on rental payments","8 months or more","Not very likely",125968,0.165839452959406
+"49","Months behind on rental payments","8 months or more","Not likely at all",29076,0.0382791497384074
+"50","Months behind on rental payments","8 months or more","Did not report",NA,NA
+"51","Months behind on rental payments","Did not report","Very likely",11194,0.0210531067155912
+"52","Months behind on rental payments","Did not report","Somewhat likely",34249,0.0644137798733504
+"53","Months behind on rental payments","Did not report","Not very likely",42276,0.0795105538242214
+"54","Months behind on rental payments","Did not report","Not likely at all",163871,0.308200254653444
+"55","Months behind on rental payments","Did not report","Did not report",280113,0.526822304933393
+"56","Household rental assistance throught state or local gobernment","Applied and received assistance","Very likely",139843,0.173151881054738
+"57","Household rental assistance throught state or local gobernment","Applied and received assistance","Somewhat likely",302076,0.374026784476098
+"58","Household rental assistance throught state or local gobernment","Applied and received assistance","Not very likely",218985,0.271144531172613
+"59","Household rental assistance throught state or local gobernment","Applied and received assistance","Not likely at all",146728,0.181676803296551
+"60","Household rental assistance throught state or local gobernment","Applied and received assistance","Did not report",NA,NA
+"61","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Very likely",512717,0.404116061878861
+"62","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Somewhat likely",338620,0.266895345528664
+"63","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Not very likely",348153,0.274409117098343
+"64","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Not likely at all",69248,0.054580263679549
+"65","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Did not report",NA,NA
+"66","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Very likely",316107,0.351967959488394
+"67","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Somewhat likely",247565,0.275650168742686
+"68","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Not very likely",255123,0.284065590855494
+"69","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Not likely at all",79318,0.0883162809134263
+"70","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Did not report",NA,NA
+"71","Household rental assistance throught state or local gobernment","Did not apply for assistance","Very likely",423945,0.115123954890538
+"72","Household rental assistance throught state or local gobernment","Did not apply for assistance","Somewhat likely",566618,0.153867376834653
+"73","Household rental assistance throught state or local gobernment","Did not apply for assistance","Not very likely",1502466,0.408000632177681
+"74","Household rental assistance throught state or local gobernment","Did not apply for assistance","Not likely at all",1189480,0.323008036097128
+"75","Household rental assistance throught state or local gobernment","Did not apply for assistance","Did not report",NA,NA
+"76","Household rental assistance throught state or local gobernment","Did not report","Very likely",10350,0.025597396237801
+"77","Household rental assistance throught state or local gobernment","Did not report","Somewhat likely",41940,0.103725101276655
+"78","Household rental assistance throught state or local gobernment","Did not report","Not very likely",NA,NA
+"79","Household rental assistance throught state or local gobernment","Did not report","Not likely at all",19073,0.0471709312505874
+"80","Household rental assistance throught state or local gobernment","Did not report","Did not report",332976,0.823509044413337
+"81","Age","18 - 24","Very likely",38836,0.0995241109433982
+"82","Age","18 - 24","Somewhat likely",69970,0.179310486216644
+"83","Age","18 - 24","Not very likely",219253,0.561874546726565
+"84","Age","18 - 24","Not likely at all",42865,0.10984913522476
+"85","Age","18 - 24","Did not report",19292,0.0494391582119692
+"86","Age","25 - 39","Very likely",723041,0.253729311092044
+"87","Age","25 - 39","Somewhat likely",433641,0.152173157803313
+"88","Age","25 - 39","Not very likely",942628,0.330786709268315
+"89","Age","25 - 39","Not likely at all",591738,0.207652505303274
+"90","Age","25 - 39","Did not report",158608,0.0556586674527267
+"91","Age","40 - 54","Very likely",328049,0.150789688996755
+"92","Age","40 - 54","Somewhat likely",571274,0.262589518004725
+"93","Age","40 - 54","Not very likely",723803,0.332700387030346
+"94","Age","40 - 54","Not likely at all",531793,0.244441839727148
+"95","Age","40 - 54","Did not report",20622,0.00947902589701867
+"96","Age","55 - 64","Very likely",282710,0.245800584266537
+"97","Age","55 - 64","Somewhat likely",375929,0.326849307922376
+"98","Age","55 - 64","Not very likely",214959,0.186894866801141
+"99","Age","55 - 64","Not likely at all",209968,0.182555470543229
+"100","Age","55 - 64","Did not report",66594,0.0578997704667177
+"101","Age","65 and above","Very likely",30326,0.0611710979370942
+"102","Age","65 and above","Somewhat likely",46005,0.0927974794102756
+"103","Age","65 and above","Not very likely",224083,0.452001686310027
+"104","Age","65 and above","Not likely at all",127483,0.257148159279647
+"105","Age","65 and above","Did not report",67860,0.136881577062956
+"106","Sex at birth","Male","Very likely",593223,0.214425443780566
+"107","Sex at birth","Male","Somewhat likely",574992,0.207835695464058
+"108","Sex at birth","Male","Not very likely",867345,0.313509146705126
+"109","Sex at birth","Male","Not likely at all",493899,0.178523948427114
+"110","Sex at birth","Male","Did not report",237110,0.0857054041647238
+"111","Sex at birth","Female","Very likely",809738,0.188540963532529
+"112","Sex at birth","Female","Somewhat likely",921827,0.214639983291263
+"113","Sex at birth","Female","Not very likely",1457381,0.339339413457193
+"114","Sex at birth","Female","Not likely at all",1009948,0.23515824752914
+"115","Sex at birth","Female","Did not report",95866,0.022321625031812
+"116","Gender identity","Cisgender male","Very likely",517373,0.196456684242623
+"117","Gender identity","Cisgender male","Somewhat likely",565224,0.214626648267985
+"118","Gender identity","Cisgender male","Not very likely",830374,0.315309308219183
+"119","Gender identity","Cisgender male","Not likely at all",483441,0.183572037750207
+"120","Gender identity","Cisgender male","Did not report",237110,0.0900353215200025
+"121","Gender identity","Cisgender female","Very likely",785729,0.189745247971006
+"122","Gender identity","Cisgender female","Somewhat likely",837374,0.202216969558808
+"123","Gender identity","Cisgender female","Not very likely",1419353,0.342758746264159
+"124","Gender identity","Cisgender female","Not likely at all",1002647,0.242128652044643
+"125","Gender identity","Cisgender female","Did not report",95866,0.023150625650814
+"126","Gender identity","Transgender","Very likely",71694,0.504053151474672
+"127","Gender identity","Transgender","Somewhat likely",23192,0.163054100608148
+"128","Gender identity","Transgender","Not very likely",44598,0.313551516855907
+"129","Gender identity","Transgender","Not likely at all",2751,0.0193412310612718
+"130","Gender identity","Transgender","Did not report",NA,NA
+"131","Gender identity","None of these","Very likely",22257,0.209452019988143
+"132","Gender identity","None of these","Somewhat likely",45676,0.42983917261888
+"133","Gender identity","None of these","Not very likely",29418,0.276841421755456
+"134","Gender identity","None of these","Not likely at all",8911,0.0838579750242323
+"135","Gender identity","None of these","Did not report",NA,NA
+"136","Gender identity","Did not report","Very likely",5909,0.154117002686419
+"137","Gender identity","Did not report","Somewhat likely",25352,0.661224276883754
+"138","Gender identity","Did not report","Not very likely",982,0.0256122688505777
+"139","Gender identity","Did not report","Not likely at all",6097,0.159020369839076
+"140","Gender identity","Did not report","Did not report",NA,NA
+"141","Sexual orientation","Gay or lesbian","Very likely",134293,0.360971636848443
+"142","Sexual orientation","Gay or lesbian","Somewhat likely",104192,0.280061930156546
+"143","Sexual orientation","Gay or lesbian","Not very likely",76945,0.206823606571478
+"144","Sexual orientation","Gay or lesbian","Not likely at all",56602,0.152142826423533
+"145","Sexual orientation","Gay or lesbian","Did not report",NA,NA
+"146","Sexual orientation","Straight","Very likely",1076138,0.184607240136015
+"147","Sexual orientation","Straight","Somewhat likely",1234635,0.211796776923898
+"148","Sexual orientation","Straight","Not very likely",1931870,0.331404698097794
+"149","Sexual orientation","Straight","Not likely at all",1254628,0.215226497417031
+"150","Sexual orientation","Straight","Did not report",332067,0.0569647874252617
+"151","Sexual orientation","Bisexual","Very likely",130007,0.257579870226361
+"152","Sexual orientation","Bisexual","Somewhat likely",123267,0.244226063698053
+"153","Sexual orientation","Bisexual","Not very likely",137323,0.272074892268067
+"154","Sexual orientation","Bisexual","Not likely at all",114127,0.226117192530586
+"155","Sexual orientation","Bisexual","Did not report",NA,NA
+"156","Sexual orientation","Something else","Very likely",24604,0.172400745547038
+"157","Sexual orientation","Something else","Somewhat likely",14458,0.101307510125145
+"158","Sexual orientation","Something else","Not very likely",83291,0.583621789032611
+"159","Sexual orientation","Something else","Not likely at all",20360,0.142662948274171
+"160","Sexual orientation","Something else","Did not report",NA,NA
+"161","Sexual orientation","I don’t know","Very likely",37553,0.238871573055149
+"162","Sexual orientation","I don’t know","Somewhat likely",19548,0.124343235163158
+"163","Sexual orientation","I don’t know","Not very likely",70777,0.450206729851791
+"164","Sexual orientation","I don’t know","Not likely at all",28424,0.180802747916799
+"165","Sexual orientation","I don’t know","Did not report",909,0.00578207493162013
+"166","Sexual orientation","Did not report","Very likely",365,0.00659916832399204
+"167","Sexual orientation","Did not report","Somewhat likely",719,0.0129994576026035
+"168","Sexual orientation","Did not report","Not very likely",24520,0.443319472066534
+"169","Sexual orientation","Did not report","Not likely at all",29706,0.53708190200687
+"170","Sexual orientation","Did not report","Did not report",NA,NA
+"171","LBGT","Yes","Very likely",267293,0.288109176081031
+"172","LBGT","Yes","Somewhat likely",237596,0.256099440689238
+"173","LBGT","Yes","Not very likely",249379,0.268800074157989
+"174","LBGT","Yes","Not likely at all",173481,0.186991309071742
+"175","LBGT","Yes","Did not report",NA,NA
+"176","LBGT","No","Very likely",1066204,0.185896729540975
+"177","LBGT","No","Somewhat likely",1167201,0.203505941280426
+"178","LBGT","No","Not very likely",1926159,0.335833160141882
+"179","LBGT","No","Not likely at all",1243833,0.216867022441428
+"180","LBGT","No","Did not report",332067,0.0578971465952885
+"181","LBGT","Other","Very likely",63190,0.206360299400415
+"182","LBGT","Other","Somewhat likely",65951,0.215376928402545
+"183","LBGT","Other","Not very likely",123686,0.403922772458297
+"184","LBGT","Other","Not likely at all",52476,0.171371468133189
+"185","LBGT","Other","Did not report",909,0.00296853160555432
+"186","LBGT","Did not report","Very likely",6275,0.0682770251890539
+"187","LBGT","Did not report","Somewhat likely",26071,0.283673358359175
+"188","LBGT","Did not report","Not very likely",25502,0.277482182688646
+"189","LBGT","Did not report","Not likely at all",34057,0.370567433763125
+"190","LBGT","Did not report","Did not report",NA,NA
+"191","Race","Hispanic origin and Race","Very likely",NA,NA
+"192","Race","Hispanic origin and Race","Somewhat likely",NA,NA
+"193","Race","Hispanic origin and Race","Not very likely",NA,NA
+"194","Race","Hispanic origin and Race","Not likely at all",NA,NA
+"195","Race","Hispanic origin and Race","Did not report",NA,NA
+"196","Race","Hispanic or Latino (may be of any race)","Very likely",577934,0.328290450939683
+"197","Race","Hispanic or Latino (may be of any race)","Somewhat likely",234618,0.133272742248365
+"198","Race","Hispanic or Latino (may be of any race)","Not very likely",632298,0.359171454782483
+"199","Race","Hispanic or Latino (may be of any race)","Not likely at all",297223,0.16883497544641
+"200","Race","Hispanic or Latino (may be of any race)","Did not report",18362,0.0104303765830604
+"201","Race","White alone, not Hispanic","Very likely",268431,0.119703647284258
+"202","Race","White alone, not Hispanic","Somewhat likely",500527,0.223204128674587
+"203","Race","White alone, not Hispanic","Not very likely",847066,0.377739119887374
+"204","Race","White alone, not Hispanic","Not likely at all",557375,0.248554825653757
+"205","Race","White alone, not Hispanic","Did not report",69064,0.0307982785000243
+"206","Race","Black alone, not Hispanic","Very likely",476168,0.2226213863671
+"207","Race","Black alone, not Hispanic","Somewhat likely",607214,0.283888926810522
+"208","Race","Black alone, not Hispanic","Not very likely",499826,0.233682139627867
+"209","Race","Black alone, not Hispanic","Not likely at all",342655,0.160200456867364
+"210","Race","Black alone, not Hispanic","Did not report",213051,0.0996070903271473
+"211","Race","Asian alone, not Hispanic","Very likely",59212,0.112233428548142
+"212","Race","Asian alone, not Hispanic","Somewhat likely",45191,0.0856573138809543
+"213","Race","Asian alone, not Hispanic","Not very likely",175047,0.331792963707805
+"214","Race","Asian alone, not Hispanic","Not likely at all",215631,0.408717936081611
+"215","Race","Asian alone, not Hispanic","Did not report",32498,0.0615983577814887
+"216","Race","Two or more races + Other races, not Hispanic","Very likely",21216,0.0541311486284786
+"217","Race","Two or more races + Other races, not Hispanic","Somewhat likely",109268,0.278789703447238
+"218","Race","Two or more races + Other races, not Hispanic","Not very likely",170489,0.434990827607498
+"219","Race","Two or more races + Other races, not Hispanic","Not likely at all",90964,0.232088320316786
+"220","Race","Two or more races + Other races, not Hispanic","Did not report",NA,NA
+"221","Education","Less than high school","Very likely",193296,0.203836379166711
+"222","Education","Less than high school","Somewhat likely",230728,0.243309536112371
+"223","Education","Less than high school","Not very likely",369538,0.389688808275949
+"224","Education","Less than high school","Not likely at all",104773,0.11048624365964
+"225","Education","Less than high school","Did not report",49953,0.0526769237258645
+"226","Education","High school or GED","Very likely",672310,0.242021822318378
+"227","Education","High school or GED","Somewhat likely",680562,0.244992422306139
+"228","Education","High school or GED","Not very likely",925264,0.333081583504026
+"229","Education","High school or GED","Not likely at all",327785,0.117997832887551
+"230","Education","High school or GED","Did not report",171969,0.0619063389839051
+"231","Education","Some college/associate’s degree","Very likely",436030,0.181548300599984
+"232","Education","Some college/associate’s degree","Somewhat likely",433882,0.18065394528111
+"233","Education","Some college/associate’s degree","Not very likely",849062,0.353521003609898
+"234","Education","Some college/associate’s degree","Not likely at all",597933,0.248959291843796
+"235","Education","Some college/associate’s degree","Did not report",84823,0.0353174586652122
+"236","Education","Bachelor’s degree or higher","Very likely",101325,0.108552536427906
+"237","Education","Bachelor’s degree or higher","Somewhat likely",151646,0.162462945365372
+"238","Education","Bachelor’s degree or higher","Not very likely",180862,0.193762929616817
+"239","Education","Bachelor’s degree or higher","Not likely at all",473355,0.507119525100732
+"240","Education","Bachelor’s degree or higher","Did not report",26231,0.0281020634891726
+"241","Marital status","Married","Very likely",363794,0.152012739529522
+"242","Marital status","Married","Somewhat likely",480389,0.200732414305479
+"243","Marital status","Married","Not very likely",984203,0.411253056078918
+"244","Marital status","Married","Not likely at all",484104,0.202284741521849
+"245","Marital status","Married","Did not report",80691,0.0337170485642331
+"246","Marital status","Widowed","Very likely",66638,0.176859951590301
+"247","Marital status","Widowed","Somewhat likely",65566,0.174014820162215
+"248","Marital status","Widowed","Not very likely",54650,0.145043313941144
+"249","Marital status","Widowed","Not likely at all",100531,0.266813346638923
+"250","Marital status","Widowed","Did not report",89398,0.237265913626906
+"251","Marital status","Divorced/separated","Very likely",445670,0.279389952318083
+"252","Marital status","Divorced/separated","Somewhat likely",383672,0.240523485506729
+"253","Marital status","Divorced/separated","Not very likely",398717,0.249955176741556
+"254","Marital status","Divorced/separated","Not likely at all",347176,0.217644189839978
+"255","Marital status","Divorced/separated","Did not report",19919,0.0124871955936543
+"256","Marital status","Never married","Very likely",526858,0.19540681348752
+"257","Marital status","Never married","Somewhat likely",567192,0.210366325187458
+"258","Marital status","Never married","Not very likely",887158,0.329038788136388
+"259","Marital status","Never married","Not likely at all",572035,0.212162549592743
+"260","Marital status","Never married","Did not report",142968,0.0530255235958907
+"261","Marital status","Did not report","Very likely",NA,NA
+"262","Marital status","Did not report","Somewhat likely",NA,NA
+"263","Marital status","Did not report","Not very likely",NA,NA
+"264","Marital status","Did not report","Not likely at all",NA,NA
+"265","Marital status","Did not report","Did not report",NA,NA
+"266","Household size","1 person in the household","Very likely",123131,0.150113257600694
+"267","Household size","1 person in the household","Somewhat likely",163639,0.19949796038788
+"268","Household size","1 person in the household","Not very likely",189560,0.231099147337288
+"269","Household size","1 person in the household","Not likely at all",218260,0.266088309231043
+"270","Household size","1 person in the household","Did not report",125663,0.153200106308534
+"271","Household size","2 people in the household","Very likely",257591,0.15087446992948
+"272","Household size","2 people in the household","Somewhat likely",488232,0.285963966918914
+"273","Household size","2 people in the household","Not very likely",493746,0.289193589953846
+"274","Household size","2 people in the household","Not likely at all",441763,0.258746456434646
+"275","Household size","2 people in the household","Did not report",25987,0.0152209310498325
+"276","Household size","3 people in the household","Very likely",175308,0.160693710498696
+"277","Household size","3 people in the household","Somewhat likely",231298,0.212016187800485
+"278","Household size","3 people in the household","Not very likely",285396,0.261604388855533
+"279","Household size","3 people in the household","Not likely at all",326586,0.299360646045401
+"280","Household size","3 people in the household","Did not report",72358,0.0663259834363785
+"281","Household size","4 people in the household","Very likely",309045,0.249030814889069
+"282","Household size","4 people in the household","Somewhat likely",301152,0.242670575370813
+"283","Household size","4 people in the household","Not very likely",394879,0.318196505857013
+"284","Household size","4 people in the household","Not likely at all",199942,0.161114786489185
+"285","Household size","4 people in the household","Did not report",35974,0.0289881232015381
+"286","Household size","5 people in the household","Very likely",83261,0.10377155078401
+"287","Household size","5 people in the household","Somewhat likely",220079,0.274293356133054
+"288","Household size","5 people in the household","Not very likely",414900,0.517106645611822
+"289","Household size","5 people in the household","Not likely at all",72223,0.0900144450856174
+"290","Household size","5 people in the household","Did not report",11887,0.0148152487259285
+"291","Household size","6 people in the household","Very likely",46869,0.128347034564345
+"292","Household size","6 people in the household","Somewhat likely",59370,0.1625800303417
+"293","Household size","6 people in the household","Not very likely",105099,0.287805265435108
+"294","Household size","6 people in the household","Not likely at all",105863,0.289897418764753
+"295","Household size","6 people in the household","Did not report",47973,0.131370250894094
+"296","Household size","7 or more people in the household","Very likely",407757,0.394236653952692
+"297","Household size","7 or more people in the household","Somewhat likely",33048,0.0319521993241773
+"298","Household size","7 or more people in the household","Not very likely",441146,0.426518546449514
+"299","Household size","7 or more people in the household","Not likely at all",139210,0.134594095494999
+"300","Household size","7 or more people in the household","Did not report",13134,0.0126985047786173
+"301","Presence of children","Children in household","Very likely",872303,0.24311637160027
+"302","Presence of children","Children in household","Somewhat likely",686583,0.191355031178878
+"303","Presence of children","Children in household","Not very likely",1284829,0.358089980897468
+"304","Presence of children","Children in household","Not likely at all",631397,0.175974343409682
+"305","Presence of children","Children in household","Did not report",112895,0.0314645516200363
+"306","Presence of children","No children","Very likely",530658,0.152781068734466
+"307","Presence of children","No children","Somewhat likely",810236,0.233274014538815
+"308","Presence of children","No children","Not very likely",1039898,0.299395708374948
+"309","Presence of children","No children","Not likely at all",872450,0.251185968019675
+"310","Presence of children","No children","Did not report",220081,0.063363240332097
+"311","Loss of employment income in last 4 weeks","Yes","Very likely",838839,0.330941209378441
+"312","Loss of employment income in last 4 weeks","Yes","Somewhat likely",607720,0.239759467267814
+"313","Loss of employment income in last 4 weeks","Yes","Not very likely",804499,0.317393292400266
+"314","Loss of employment income in last 4 weeks","Yes","Not likely at all",172117,0.0679041009473679
+"315","Loss of employment income in last 4 weeks","Yes","Did not report",111532,0.0440019300061112
+"316","Loss of employment income in last 4 weeks","No","Very likely",539641,0.120019705222329
+"317","Loss of employment income in last 4 weeks","No","Somewhat likely",889099,0.197741461255663
+"318","Loss of employment income in last 4 weeks","No","Not very likely",1520227,0.3381084765817
+"319","Loss of employment income in last 4 weeks","No","Not likely at all",1325859,0.294879755886546
+"320","Loss of employment income in last 4 weeks","No","Did not report",221444,0.0492506010537623
+"321","Loss of employment income in last 4 weeks","Did not report","Very likely",24480,0.806563210437877
+"322","Loss of employment income in last 4 weeks","Did not report","Somewhat likely",NA,NA
+"323","Loss of employment income in last 4 weeks","Did not report","Not very likely",NA,NA
+"324","Loss of employment income in last 4 weeks","Did not report","Not likely at all",5871,0.193436789562123
+"325","Loss of employment income in last 4 weeks","Did not report","Did not report",NA,NA
+"326","Respondent employed in the last 7 days","Yes","Very likely",597526,0.15348432794128
+"327","Respondent employed in the last 7 days","Yes","Somewhat likely",753398,0.19352260102875
+"328","Respondent employed in the last 7 days","Yes","Not very likely",1368360,0.351485650803028
+"329","Respondent employed in the last 7 days","Yes","Not likely at all",1049986,0.26970608066888
+"330","Respondent employed in the last 7 days","Yes","Did not report",123805,0.0318013395580614
+"331","Respondent employed in the last 7 days","No","Very likely",780954,0.252895762273048
+"332","Respondent employed in the last 7 days","No","Somewhat likely",702874,0.227611173016473
+"333","Respondent employed in the last 7 days","No","Not very likely",944624,0.30589689858995
+"334","Respondent employed in the last 7 days","No","Not likely at all",450424,0.14586047427387
+"335","Respondent employed in the last 7 days","No","Did not report",209171,0.0677356918466591
+"336","Respondent employed in the last 7 days","Did not report","Very likely",24480,0.305210268430436
+"337","Respondent employed in the last 7 days","Did not report","Somewhat likely",40547,0.505529442567357
+"338","Respondent employed in the last 7 days","Did not report","Not very likely",11743,0.146408667572656
+"339","Respondent employed in the last 7 days","Did not report","Not likely at all",3437,0.042851621429551
+"340","Respondent employed in the last 7 days","Did not report","Did not report",NA,NA
+"341","Household income","Less than $25,000","Very likely",765199,0.274219564437561
+"342","Household income","Less than $25,000","Somewhat likely",724803,0.259743103379692
+"343","Household income","Less than $25,000","Not very likely",795251,0.284989111118199
+"344","Household income","Less than $25,000","Not likely at all",505208,0.181048221064548
+"345","Household income","Less than $25,000","Did not report",NA,NA
+"346","Household income","$25,000 - $34,999","Very likely",276175,0.259854329149131
+"347","Household income","$25,000 - $34,999","Somewhat likely",251519,0.236655385220459
+"348","Household income","$25,000 - $34,999","Not very likely",311433,0.293028743694763
+"349","Household income","$25,000 - $34,999","Not likely at all",218270,0.205371248025276
+"350","Household income","$25,000 - $34,999","Did not report",5411,0.00509123481497581
+"351","Household income","$35,000 - $49,999","Very likely",167999,0.133508643941453
+"352","Household income","$35,000 - $49,999","Somewhat likely",245569,0.195153448437542
+"353","Household income","$35,000 - $49,999","Not very likely",675000,0.53642185168055
+"354","Household income","$35,000 - $49,999","Not likely at all",167978,0.133491955261623
+"355","Household income","$35,000 - $49,999","Did not report",1793,0.00142489537787145
+"356","Household income","$50,000 - $74,999","Very likely",83586,0.0975491912331069
+"357","Household income","$50,000 - $74,999","Somewhat likely",166899,0.194779777326518
+"358","Household income","$50,000 - $74,999","Not very likely",351041,0.409683028732815
+"359","Household income","$50,000 - $74,999","Not likely at all",255334,0.29798800270756
+"360","Household income","$50,000 - $74,999","Did not report",NA,NA
+"361","Household income","$75,000 - $99,999","Very likely",40223,0.124520544976673
+"362","Household income","$75,000 - $99,999","Somewhat likely",55145,0.170715397974757
+"363","Household income","$75,000 - $99,999","Not very likely",70784,0.219129907158314
+"364","Household income","$75,000 - $99,999","Not likely at all",113360,0.35093476315928
+"365","Household income","$75,000 - $99,999","Did not report",43511,0.134699386730976
+"366","Household income","$100,000 - $149,999","Very likely",5868,0.0491650817323402
+"367","Household income","$100,000 - $149,999","Somewhat likely",9822,0.0822937002002463
+"368","Household income","$100,000 - $149,999","Not very likely",14229,0.119217782544218
+"369","Household income","$100,000 - $149,999","Not likely at all",89434,0.749323435523196
+"370","Household income","$100,000 - $149,999","Did not report",NA,NA
+"371","Household income","$150,000 - $199,999","Very likely",NA,NA
+"372","Household income","$150,000 - $199,999","Somewhat likely",4808,0.0502471600112868
+"373","Household income","$150,000 - $199,999","Not very likely",9642,0.100766039273883
+"374","Household income","$150,000 - $199,999","Not likely at all",71958,0.752014380218838
+"375","Household income","$150,000 - $199,999","Did not report",9279,0.0969724204959921
+"376","Household income","$200,000 and above","Very likely",NA,NA
+"377","Household income","$200,000 and above","Somewhat likely",NA,NA
+"378","Household income","$200,000 and above","Not very likely",NA,NA
+"379","Household income","$200,000 and above","Not likely at all",36053,1
+"380","Household income","$200,000 and above","Did not report",NA,NA
+"381","Household income","Did not report","Very likely",63912,0.123204567930031
+"382","Household income","Did not report","Somewhat likely",38253,0.0737411493464059
+"383","Household income","Did not report","Not very likely",97347,0.18765795272069
+"384","Household income","Did not report","Not likely at all",46253,0.0891629252795679
+"385","Household income","Did not report","Did not report",272983,0.526235332445296
+"386","Income sources used in the last 7 days to meet spending needs","Regular income sources like those received before the pandemic","Very likely",478726,0.140566274852482
+"387","Income sources used in the last 7 days to meet spending needs","Regular income sources like those received before the pandemic","Somewhat likely",586599,0.172240564043297
+"388","Income sources used in the last 7 days to meet spending needs","Regular income sources like those received before the pandemic","Not very likely",1228113,0.360605585466231
+"389","Income sources used in the last 7 days to meet spending needs","Regular income sources like those received before the pandemic","Not likely at all",940786,0.276238983162326
+"390","Income sources used in the last 7 days to meet spending needs","Regular income sources like those received before the pandemic","Did not report",171472,0.0503485924756643
+"391","Income sources used in the last 7 days to meet spending needs","Credit cards or loans","Very likely",716130,0.255108365750438
+"392","Income sources used in the last 7 days to meet spending needs","Credit cards or loans","Somewhat likely",556336,0.198184642129412
+"393","Income sources used in the last 7 days to meet spending needs","Credit cards or loans","Not very likely",825065,0.293914490089628
+"394","Income sources used in the last 7 days to meet spending needs","Credit cards or loans","Not likely at all",636886,0.226879123384488
+"395","Income sources used in the last 7 days to meet spending needs","Credit cards or loans","Did not report",72744,0.0259137348779549
+"396","Income sources used in the last 7 days to meet spending needs","Money from savings or selling assets or possessions (including withdrawals from retirement accounts)","Very likely",424510,0.199390241897643
+"397","Income sources used in the last 7 days to meet spending needs","Money from savings or selling assets or possessions (including withdrawals from retirement accounts)","Somewhat likely",408674,0.191952151226773
+"398","Income sources used in the last 7 days to meet spending needs","Money from savings or selling assets or possessions (including withdrawals from retirement accounts)","Not very likely",795606,0.373692192869935
+"399","Income sources used in the last 7 days to meet spending needs","Money from savings or selling assets or possessions (including withdrawals from retirement accounts)","Not likely at all",408823,0.192022135787897
+"400","Income sources used in the last 7 days to meet spending needs","Money from savings or selling assets or possessions (including withdrawals from retirement accounts)","Did not report",91428,0.0429432782177516
+"401","Income sources used in the last 7 days to meet spending needs","Borrowing from friends or family","Very likely",1062665,0.277357275184959
+"402","Income sources used in the last 7 days to meet spending needs","Borrowing from friends or family","Somewhat likely",977271,0.255069303757327
+"403","Income sources used in the last 7 days to meet spending needs","Borrowing from friends or family","Not very likely",1158525,0.3023768894559
+"404","Income sources used in the last 7 days to meet spending needs","Borrowing from friends or family","Not likely at all",516105,0.134704235586317
+"405","Income sources used in the last 7 days to meet spending needs","Borrowing from friends or family","Did not report",116827,0.0304920350138879
+"406","Income sources used in the last 7 days to meet spending needs","Unemployment insurance (UI) benefit payments","Very likely",120770,0.414908821063915
+"407","Income sources used in the last 7 days to meet spending needs","Unemployment insurance (UI) benefit payments","Somewhat likely",83354,0.286365073039344
+"408","Income sources used in the last 7 days to meet spending needs","Unemployment insurance (UI) benefit payments","Not very likely",78941,0.271204084156715
+"409","Income sources used in the last 7 days to meet spending needs","Unemployment insurance (UI) benefit payments","Not likely at all",8012,0.027525457268892
+"410","Income sources used in the last 7 days to meet spending needs","Unemployment insurance (UI) benefit payments","Did not report",NA,NA
+"411","Income sources used in the last 7 days to meet spending needs","Money saved from deferred or forgiven payments (to meet spending needs)","Very likely",246510,0.535255978773022
+"412","Income sources used in the last 7 days to meet spending needs","Money saved from deferred or forgiven payments (to meet spending needs)","Somewhat likely",118489,0.257279403143226
+"413","Income sources used in the last 7 days to meet spending needs","Money saved from deferred or forgiven payments (to meet spending needs)","Not very likely",29494,0.064041376974287
+"414","Income sources used in the last 7 days to meet spending needs","Money saved from deferred or forgiven payments (to meet spending needs)","Not likely at all",27852,0.0604760436525342
+"415","Income sources used in the last 7 days to meet spending needs","Money saved from deferred or forgiven payments (to meet spending needs)","Did not report",38201,0.0829471974569315
+"416","Income sources used in the last 7 days to meet spending needs","Supplemental Nutrition Assistance Program (SNAP)","Very likely",461847,0.250455388716772
+"417","Income sources used in the last 7 days to meet spending needs","Supplemental Nutrition Assistance Program (SNAP)","Somewhat likely",390334,0.211674545248475
+"418","Income sources used in the last 7 days to meet spending needs","Supplemental Nutrition Assistance Program (SNAP)","Not very likely",685124,0.371536456313865
+"419","Income sources used in the last 7 days to meet spending needs","Supplemental Nutrition Assistance Program (SNAP)","Not likely at all",283209,0.153581641069636
+"420","Income sources used in the last 7 days to meet spending needs","Supplemental Nutrition Assistance Program (SNAP)","Did not report",23515,0.0127519686512522
+"421","Income sources used in the last 7 days to meet spending needs","Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)","Very likely",32195,0.107234453585584
+"422","Income sources used in the last 7 days to meet spending needs","Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)","Somewhat likely",35718,0.118968790593878
+"423","Income sources used in the last 7 days to meet spending needs","Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)","Not very likely",188803,0.62886120640842
+"424","Income sources used in the last 7 days to meet spending needs","Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)","Not likely at all",41758,0.139086700196516
+"425","Income sources used in the last 7 days to meet spending needs","Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)","Did not report",1756,0.00584884921560137
+"426","Income sources used in the last 7 days to meet spending needs","School meal debit/EBT cards","Very likely",295172,0.287723416201379
+"427","Income sources used in the last 7 days to meet spending needs","School meal debit/EBT cards","Somewhat likely",259267,0.252724468947877
+"428","Income sources used in the last 7 days to meet spending needs","School meal debit/EBT cards","Not very likely",315671,0.307705129604791
+"429","Income sources used in the last 7 days to meet spending needs","School meal debit/EBT cards","Not likely at all",148309,0.144566463395614
+"430","Income sources used in the last 7 days to meet spending needs","School meal debit/EBT cards","Did not report",7469,0.00728052185033844
+"431","Income sources used in the last 7 days to meet spending needs","Government rental assistance","Very likely",307890,0.33733015165559
+"432","Income sources used in the last 7 days to meet spending needs","Government rental assistance","Somewhat likely",227628,0.249393574851598
+"433","Income sources used in the last 7 days to meet spending needs","Government rental assistance","Not very likely",257284,0.281885253624856
+"434","Income sources used in the last 7 days to meet spending needs","Government rental assistance","Not likely at all",111389,0.122039911211032
+"435","Income sources used in the last 7 days to meet spending needs","Government rental assistance","Did not report",8535,0.00935110865692442
+"436","Income sources used in the last 7 days to meet spending needs","Other","Very likely",80403,0.158404274391673
+"437","Income sources used in the last 7 days to meet spending needs","Other","Somewhat likely",43183,0.0850760765276872
+"438","Income sources used in the last 7 days to meet spending needs","Other","Not very likely",208531,0.410832950799971
+"439","Income sources used in the last 7 days to meet spending needs","Other","Not likely at all",164757,0.324592528089113
+"440","Income sources used in the last 7 days to meet spending needs","Other","Did not report",10706,0.0210922000626501
+"441","Income sources used in the last 7 days to meet spending needs","Did not report","Very likely",NA,NA
+"442","Income sources used in the last 7 days to meet spending needs","Did not report","Somewhat likely",22225,0.820201498320847
+"443","Income sources used in the last 7 days to meet spending needs","Did not report","Not very likely",1559,0.0575340443591542
+"444","Income sources used in the last 7 days to meet spending needs","Did not report","Not likely at all",1521,0.0561316750931837
+"445","Income sources used in the last 7 days to meet spending needs","Did not report","Did not report",1793,0.0661696866811824
+"446","Military duty","Serving on active duty","Very likely",68701,1
+"447","Military duty","Serving on active duty","Somewhat likely",NA,NA
+"448","Military duty","Serving on active duty","Not very likely",NA,NA
+"449","Military duty","Serving on active duty","Not likely at all",NA,NA
+"450","Military duty","Serving on active duty","Did not report",NA,NA
+"451","Military duty","Serving in Reserve or National Guard","Very likely",NA,NA
+"452","Military duty","Serving in Reserve or National Guard","Somewhat likely",501,0.0350840336134454
+"453","Military duty","Serving in Reserve or National Guard","Not very likely",5384,0.37703081232493
+"454","Military duty","Serving in Reserve or National Guard","Not likely at all",8395,0.587885154061625
+"455","Military duty","Serving in Reserve or National Guard","Did not report",NA,NA
+"456","Military duty","Spouse serving on active duty","Very likely",NA,NA
+"457","Military duty","Spouse serving on active duty","Somewhat likely",NA,NA
+"458","Military duty","Spouse serving on active duty","Not very likely",31220,0.754799090953049
+"459","Military duty","Spouse serving on active duty","Not likely at all",10142,0.245200909046951
+"460","Military duty","Spouse serving on active duty","Did not report",NA,NA
+"461","Military duty","Spouse serving in Reserve or National Guard","Very likely",NA,NA
+"462","Military duty","Spouse serving in Reserve or National Guard","Somewhat likely",NA,NA
+"463","Military duty","Spouse serving in Reserve or National Guard","Not very likely",6928,0.286233680383408
+"464","Military duty","Spouse serving in Reserve or National Guard","Not likely at all",17276,0.713766319616592
+"465","Military duty","Spouse serving in Reserve or National Guard","Did not report",NA,NA
+"466","Military duty","No active duty service (self or spouse)","Very likely",1334260,0.193018936762595
+"467","Military duty","No active duty service (self or spouse)","Somewhat likely",1496317,0.216462695726317
+"468","Military duty","No active duty service (self or spouse)","Not very likely",2281195,0.330006020901584
+"469","Military duty","No active duty service (self or spouse)","Not likely at all",1467838,0.212342819315376
+"470","Military duty","No active duty service (self or spouse)","Did not report",332976,0.048169527294127
+"471","Military duty","Did not report","Very likely",NA,NA
+"472","Military duty","Did not report","Somewhat likely",NA,NA
+"473","Military duty","Did not report","Not very likely",NA,NA
+"474","Military duty","Did not report","Not likely at all",196,1
+"475","Military duty","Did not report","Did not report",NA,NA
+"476","Difficulty seeing","No difficulty","Very likely",626808,0.176823397487887
+"477","Difficulty seeing","No difficulty","Somewhat likely",547351,0.154408468683221
+"478","Difficulty seeing","No difficulty","Not very likely",1317713,0.371728646689188
+"479","Difficulty seeing","No difficulty","Not likely at all",834143,0.235312885685471
+"480","Difficulty seeing","No difficulty","Did not report",218809,0.0617263193528595
+"481","Difficulty seeing","Some difficulty","Very likely",555923,0.191502847621505
+"482","Difficulty seeing","Some difficulty","Somewhat likely",824704,0.284091797685733
+"483","Difficulty seeing","Some difficulty","Not very likely",829988,0.28591201567785
+"484","Difficulty seeing","Some difficulty","Not likely at all",593926,0.204594018014095
+"485","Difficulty seeing","Some difficulty","Did not report",98409,0.0338996654781052
+"486","Difficulty seeing","A lot of difficulty","Very likely",193237,0.353834209509579
+"487","Difficulty seeing","A lot of difficulty","Somewhat likely",122594,0.22448056573336
+"488","Difficulty seeing","A lot of difficulty","Not very likely",164940,0.302019874643624
+"489","Difficulty seeing","A lot of difficulty","Not likely at all",49594,0.0908110443984231
+"490","Difficulty seeing","A lot of difficulty","Did not report",15758,0.0288543057150129
+"491","Difficulty seeing","Cannot do at all","Very likely",26993,0.512346967827655
+"492","Difficulty seeing","Cannot do at all","Somewhat likely",2169,0.0411692132485527
+"493","Difficulty seeing","Cannot do at all","Not very likely",2877,0.0546075733130872
+"494","Difficulty seeing","Cannot do at all","Not likely at all",20645,0.391857264876151
+"495","Difficulty seeing","Cannot do at all","Did not report",NA,NA
+"496","Difficulty seeing","Did not report","Very likely",NA,NA
+"497","Difficulty seeing","Did not report","Somewhat likely",NA,NA
+"498","Difficulty seeing","Did not report","Not very likely",9208,0.624440526244405
+"499","Difficulty seeing","Did not report","Not likely at all",5538,0.375559473755595
+"500","Difficulty seeing","Did not report","Did not report",NA,NA
+"501","Difficulty hearing","No difficulty","Very likely",1199784,0.200347230861433
+"502","Difficulty hearing","No difficulty","Somewhat likely",1156724,0.193156810118288
+"503","Difficulty hearing","No difficulty","Not very likely",1969786,0.328926848907485
+"504","Difficulty hearing","No difficulty","Not likely at all",1373334,0.229327665603021
+"505","Difficulty hearing","No difficulty","Did not report",288895,0.0482414445097731
+"506","Difficulty hearing","Some difficulty","Very likely",148079,0.17877071366311
+"507","Difficulty hearing","Some difficulty","Somewhat likely",289733,0.349784744506337
+"508","Difficulty hearing","Some difficulty","Not very likely",251654,0.303813269782861
+"509","Difficulty hearing","Some difficulty","Not likely at all",109046,0.131647507358285
+"510","Difficulty hearing","Some difficulty","Did not report",29806,0.0359837646894067
+"511","Difficulty hearing","A lot of difficulty","Very likely",41535,0.229181380771608
+"512","Difficulty hearing","A lot of difficulty","Somewhat likely",45688,0.252096759954092
+"513","Difficulty hearing","A lot of difficulty","Not very likely",58268,0.321510550013243
+"514","Difficulty hearing","A lot of difficulty","Not likely at all",21467,0.118450384038139
+"515","Difficulty hearing","A lot of difficulty","Did not report",14274,0.0787609252229187
+"516","Difficulty hearing","Cannot do at all","Very likely",10385,0.204151841003362
+"517","Difficulty hearing","Cannot do at all","Somewhat likely",4674,0.0918830722050758
+"518","Difficulty hearing","Cannot do at all","Not very likely",35810,0.703965086791563
+"519","Difficulty hearing","Cannot do at all","Not likely at all",NA,NA
+"520","Difficulty hearing","Cannot do at all","Did not report",NA,NA
+"521","Difficulty hearing","Did not report","Very likely",3179,0.256660746003552
+"522","Difficulty hearing","Did not report","Somewhat likely",NA,NA
+"523","Difficulty hearing","Did not report","Not very likely",9208,0.743419990311642
+"524","Difficulty hearing","Did not report","Not likely at all",NA,NA
+"525","Difficulty hearing","Did not report","Did not report",NA,NA
+"526","Difficulty remembering or concentrating","No difficulty","Very likely",688081,0.223661439846056
+"527","Difficulty remembering or concentrating","No difficulty","Somewhat likely",450743,0.14651447777301
+"528","Difficulty remembering or concentrating","No difficulty","Not very likely",887128,0.288361872814032
+"529","Difficulty remembering or concentrating","No difficulty","Not likely at all",911802,0.296382182002574
+"530","Difficulty remembering or concentrating","No difficulty","Did not report",138686,0.0450800275643276
+"531","Difficulty remembering or concentrating","Some difficulty","Very likely",457516,0.14853528230781
+"532","Difficulty remembering or concentrating","Some difficulty","Somewhat likely",821088,0.266571087960979
+"533","Difficulty remembering or concentrating","Some difficulty","Not very likely",1158457,0.37609993428964
+"534","Difficulty remembering or concentrating","Some difficulty","Not likely at all",462479,0.150146549686642
+"535","Difficulty remembering or concentrating","Some difficulty","Did not report",180644,0.0586471457549289
+"536","Difficulty remembering or concentrating","A lot of difficulty","Very likely",234232,0.272279840327714
+"537","Difficulty remembering or concentrating","A lot of difficulty","Somewhat likely",219781,0.255481469598797
+"538","Difficulty remembering or concentrating","A lot of difficulty","Not very likely",269933,0.313779987957157
+"539","Difficulty remembering or concentrating","A lot of difficulty","Not likely at all",122670,0.142596092818234
+"540","Difficulty remembering or concentrating","A lot of difficulty","Did not report",13646,0.0158626092980976
+"541","Difficulty remembering or concentrating","Cannot do at all","Very likely",23133,0.656516063117266
+"542","Difficulty remembering or concentrating","Cannot do at all","Somewhat likely",5206,0.147746622772165
+"543","Difficulty remembering or concentrating","Cannot do at all","Not very likely",NA,NA
+"544","Difficulty remembering or concentrating","Cannot do at all","Not likely at all",6897,0.195737314110569
+"545","Difficulty remembering or concentrating","Cannot do at all","Did not report",NA,NA
+"546","Difficulty remembering or concentrating","Did not report","Very likely",NA,NA
+"547","Difficulty remembering or concentrating","Did not report","Somewhat likely",NA,NA
+"548","Difficulty remembering or concentrating","Did not report","Not very likely",9208,1
+"549","Difficulty remembering or concentrating","Did not report","Not likely at all",NA,NA
+"550","Difficulty remembering or concentrating","Did not report","Did not report",NA,NA
+"551","Difficulty walking or climbing stairs","No difficulty","Very likely",931157,0.198604076477191
+"552","Difficulty walking or climbing stairs","No difficulty","Somewhat likely",724675,0.15456406290358
+"553","Difficulty walking or climbing stairs","No difficulty","Not very likely",1608166,0.343001581099663
+"554","Difficulty walking or climbing stairs","No difficulty","Not likely at all",1137034,0.242515051160188
+"555","Difficulty walking or climbing stairs","No difficulty","Did not report",287478,0.0613154416468007
+"556","Difficulty walking or climbing stairs","Some difficulty","Very likely",311490,0.201935400639083
+"557","Difficulty walking or climbing stairs","Some difficulty","Somewhat likely",490510,0.317992016974787
+"558","Difficulty walking or climbing stairs","Some difficulty","Not very likely",437455,0.283597067920543
+"559","Difficulty walking or climbing stairs","Some difficulty","Not likely at all",261949,0.16981853755179
+"560","Difficulty walking or climbing stairs","Some difficulty","Did not report",41118,0.0266563286252458
+"561","Difficulty walking or climbing stairs","A lot of difficulty","Very likely",152511,0.192718909731919
+"562","Difficulty walking or climbing stairs","A lot of difficulty","Somewhat likely",279464,0.353141723477788
+"563","Difficulty walking or climbing stairs","A lot of difficulty","Not very likely",270953,0.342386888477504
+"564","Difficulty walking or climbing stairs","A lot of difficulty","Not likely at all",85540,0.108091714948222
+"565","Difficulty walking or climbing stairs","A lot of difficulty","Did not report",2896,0.00365949972515843
+"566","Difficulty walking or climbing stairs","Cannot do at all","Very likely",2074,0.0624623539332611
+"567","Difficulty walking or climbing stairs","Cannot do at all","Somewhat likely",2169,0.065323455005421
+"568","Difficulty walking or climbing stairs","Cannot do at all","Not very likely",8152,0.245512588844717
+"569","Difficulty walking or climbing stairs","Cannot do at all","Not likely at all",19325,0.582008191784122
+"570","Difficulty walking or climbing stairs","Cannot do at all","Did not report",1483,0.0446632935790869
+"571","Difficulty walking or climbing stairs","Did not report","Very likely",5729,1
+"572","Difficulty walking or climbing stairs","Did not report","Somewhat likely",NA,NA
+"573","Difficulty walking or climbing stairs","Did not report","Not very likely",NA,NA
+"574","Difficulty walking or climbing stairs","Did not report","Not likely at all",NA,NA
+"575","Difficulty walking or climbing stairs","Did not report","Did not report",NA,NA
+"576","Difficulty with self-care","No difficulty","Very likely",1206601,0.205627116171556
+"577","Difficulty with self-care","No difficulty","Somewhat likely",1138721,0.194059109311189
+"578","Difficulty with self-care","No difficulty","Not very likely",1828636,0.31163337939177
+"579","Difficulty with self-care","No difficulty","Not likely at all",1392820,0.237362276300174
+"580","Difficulty with self-care","No difficulty","Did not report",301129,0.0513179484068257
+"581","Difficulty with self-care","Some difficulty","Very likely",157181,0.155797981319824
+"582","Difficulty with self-care","Some difficulty","Somewhat likely",315159,0.312385949922538
+"583","Difficulty with self-care","Some difficulty","Not very likely",415133,0.411480289470372
+"584","Difficulty with self-care","Some difficulty","Not likely at all",96452,0.0956033292462808
+"585","Difficulty with self-care","Some difficulty","Did not report",24952,0.0247324500409862
+"586","Difficulty with self-care","A lot of difficulty","Very likely",36500,0.262457755087366
+"587","Difficulty with self-care","A lot of difficulty","Somewhat likely",41268,0.296742647587546
+"588","Difficulty with self-care","A lot of difficulty","Not very likely",46860,0.336952613791616
+"589","Difficulty with self-care","A lot of difficulty","Not likely at all",7548,0.0542748256273819
+"590","Difficulty with self-care","A lot of difficulty","Did not report",6894,0.0495721579060905
+"591","Difficulty with self-care","Cannot do at all","Very likely",2114,0.0479658747986295
+"592","Difficulty with self-care","Cannot do at all","Somewhat likely",1670,0.0378916797132031
+"593","Difficulty with self-care","Cannot do at all","Not very likely",34097,0.773648265377896
+"594","Difficulty with self-care","Cannot do at all","Not likely at all",6192,0.140494180110272
+"595","Difficulty with self-care","Cannot do at all","Did not report",NA,NA
+"596","Difficulty with self-care","Did not report","Very likely",566,0.403997144896503
+"597","Difficulty with self-care","Did not report","Somewhat likely",NA,NA
+"598","Difficulty with self-care","Did not report","Not very likely",NA,NA
+"599","Difficulty with self-care","Did not report","Not likely at all",835,0.596002855103497
+"600","Difficulty with self-care","Did not report","Did not report",NA,NA
+"601","Difficulty with self-care","No difficulty","Very likely",1290916,0.212361213903442
+"602","Difficulty with self-care","No difficulty","Somewhat likely",1097104,0.18047830936972
+"603","Difficulty with self-care","No difficulty","Not very likely",2060957,0.339036258225009
+"604","Difficulty with self-care","No difficulty","Not likely at all",1420705,0.233712060582322
+"605","Difficulty with self-care","No difficulty","Did not report",209187,0.0344121579195077
+"606","Difficulty with self-care","Some difficulty","Very likely",77687,0.0968747973643651
+"607","Difficulty with self-care","Some difficulty","Somewhat likely",304912,0.38022176443888
+"608","Difficulty with self-care","Some difficulty","Not very likely",217033,0.270637660050977
+"609","Difficulty with self-care","Some difficulty","Not likely at all",78510,0.0979010689185617
+"610","Difficulty with self-care","Some difficulty","Did not report",123789,0.154363462238694
+"611","Difficulty with self-care","A lot of difficulty","Very likely",32880,0.18702433364049
+"612","Difficulty with self-care","A lot of difficulty","Somewhat likely",93901,0.534117151860574
+"613","Difficulty with self-care","A lot of difficulty","Not very likely",46736,0.265838481052979
+"614","Difficulty with self-care","A lot of difficulty","Not likely at all",2289,0.0130200334459575
+"615","Difficulty with self-care","A lot of difficulty","Did not report",NA,NA
+"616","Difficulty with self-care","Cannot do at all","Very likely",1478,0.312936692780013
+"617","Difficulty with self-care","Cannot do at all","Somewhat likely",902,0.190980309125556
+"618","Difficulty with self-care","Cannot do at all","Not very likely",NA,NA
+"619","Difficulty with self-care","Cannot do at all","Not likely at all",2344,0.496294727927165
+"620","Difficulty with self-care","Cannot do at all","Did not report",NA,NA
+"621","Difficulty with self-care","Did not report","Very likely",NA,NA
+"622","Difficulty with self-care","Did not report","Somewhat likely",NA,NA
+"623","Difficulty with self-care","Did not report","Not very likely",NA,NA
+"624","Difficulty with self-care","Did not report","Not likely at all",NA,NA
+"625","Difficulty with self-care","Did not report","Did not report",NA,NA
