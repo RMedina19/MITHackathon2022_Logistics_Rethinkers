@@ -335,7 +335,7 @@ df_moving <- df_raw                                       |>
     .funs = ~as.numeric(.))                               |>
   mutate(               
     prob = subtotal/total,              
-    category = "Difficulty remembering or concentrating") |>
+    category = "Difficulty walking or climbing stairs")   |>
   select(category, group, likelihood, subtotal, prob)     |>
   glimpse()
 
@@ -349,6 +349,10 @@ df_unified <- df_total |>
   mutate(likelihood = factor(
     likelihood, levels = c("Did not report", 
       "Not likely at all", "Not very likely", "Somewhat likely", "Very likely")))
+
+
+write.csv(df_unified, file = paste_out("df_census_likelihood_eviction.csv"))
+
 
 # 2. Figures -------------------------------------------------------------------
 
@@ -419,10 +423,11 @@ ggplot(
   scale_x_discrete(position = "top") +
   scale_y_discrete(limits=rev) +
   scale_fill_gradient2(label = scales::percent_format(), 
-                       high  = v_colors[4], 
-                       mid  = v_colors[2],
-                       low = v_colors[1], 
-                       midpoint = 0.5) +
+                       high  = v_colors[3], 
+                       # mid  = v_colors[2],
+                       low   = "white", 
+                       # midpoint = 0.25
+                       ) +
   # Theme
   tema +
   theme(legend.key.size   = unit(1, 'cm'),
@@ -455,11 +460,11 @@ for(i in 2:length(unique(df_unified$category))){
     # Geoms
     geom_tile(aes(fill = prob)) +
     geom_text(aes(label = scales::percent(prob, accuracy = 0.1)), 
-              family = "Fira Sans", color = "black", size = 5) +
+              family = "Fira Sans", color = "black", size = 3) +
     # Labels
     labs(
       title    = "Likelihood of eviction", 
-      subtitle =  paste0(unique(df_unified$category)[1], "\n"),
+      subtitle =  paste0(unique(df_unified$category)[i], "\n"),
       x        = v_empty, 
       y        = v_empty, 
       fill     = "% of renters\nnot current on\nrental payments", 
@@ -467,18 +472,19 @@ for(i in 2:length(unique(df_unified$category))){
     ) +
     # Scales
     scale_x_discrete(position = "top") +
-    scale_y_discrete(limits=rev) +
+    scale_y_discrete(limits=rev, labels = scales::wrap_format(20)) +
     scale_fill_gradient2(label = scales::percent_format(), 
-                         high  = v_colors[4], 
-                         mid  = v_colors[2],
-                         low = v_colors[1], 
-                         midpoint = 0.5) +
+                         high  = v_colors[3], 
+                         # mid  = v_colors[2],
+                         low = v_colors[2], 
+                         # midpoint = 0.5
+                         ) +
     # Theme
     tema 
   
   # Save plot
   ggsave(paste_fig(paste0(str_pad(i, width = 2, pad = "0"), ".png")), 
          device = "png", type = "cairo", 
-         width = 6, height = 4)
+         width = 6, height = 6)
 }
 
