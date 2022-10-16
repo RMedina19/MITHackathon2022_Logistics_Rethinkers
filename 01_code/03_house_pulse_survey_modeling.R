@@ -186,6 +186,7 @@ df_coefficients <- as.data.frame(m1$coefficients) |>
 
 
 
+
 ## 4. Figures ------------------------------------------------------------------
 
 ## 4.1. Set up -----------------------------------------------------------------
@@ -246,6 +247,17 @@ df_data <- df_coefficients |>
     mutate(
       variable = forcats::fct_inorder(variable), 
       sign = if_else(coefficient > 0, "positive", "negative"))
+
+
+
+df_personal_traits_coefficients <- df_data
+
+write.csv(df_personal_traits_coefficients, file = paste_out("df_personal_traits_coefficients.csv"))
+save(df_personal_traits_coefficients, file = paste_out("df_personal_traits_coefficients.RData"))
+
+
+
+
 
  # Plot
 ggplot(
