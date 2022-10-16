@@ -299,9 +299,12 @@ v_intercept <- df_coefficients$coefficient[df_coefficients$variable == v_names[1
 
 
 # Users' data
-v_trans      <- 0 # Trans person == 1, Cis person == 0 
-v_unemployed <- 0 # Unemployed person == 1, Employed person == 0
-v_
+v_trans       <- 0 # Trans person == 1, Cis person == 0 
+v_unemployed  <- 0 # Unemployed person == 1, Employed person == 0
+v_trans       <- 1
+v_singe       <- 1
+v_children    <- 0
 
 # Coefficients 
-v_intercept  <- -5.935718
+coeff_intercept  <- df_coefficients$coefficient[df_coefficients$variable == v_names[1]]
+
