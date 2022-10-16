@@ -20,3 +20,7 @@ ReThinkers: Regina Isabel Medina Rosales, Sanhitha Cherukupally, Tasaduq Soomro,
 #### And the following Python-Packages
 - An easy package to access to the U.S. Census Bureau’s API (censusdata)
 - Nn interactive, open-source, and browser-based graphing library (plotly)
+
+## Some of the Results
+![Eviction based on sexual orientation](04_figures/01_census_likelihood_eviction/07.png)
+![Likelihood of being evicted](04_figures/03_household_pulse_survey/01_significan_risk_factors.png)
