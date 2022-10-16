@@ -1,0 +1,60 @@
+---
+title: "ReThinking Emergency Rental Allocation"
+subtitle: "Appendix C. Econometric models and variables descriptors"
+author: 
+- "ReThinkers"
+- "Regina Isabel Medina Rosales, Sanhitha Cherukupally,"
+- "Tasaduq, Carlos Enrique Huapaya"
+
+date: "October 16th, 2022"
+output: 
+  rmarkdown::pdf_document:
+    toc: true
+    latex_engine: xelatex
+---
+
+    
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+% center of header
+\fancyhead[CO,CE]{Your Document Header}
+% center of footer
+\fancyfoot[CO,CE]{And this is a fancy footer}
+% page number on the left of even pages and right of odd pages
+\fancyfoot[LE,RO]{\thepage}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Being at risk of eviction is a result of several factors. Recognizing the multicasual nature of this social phenomenon, the _ReThinkers_ team designed a quantitative strategy sensitive to both personal-level factors and state-level factors. 
+
+## Person-level factors 
+
+### Data sources and variables descriptors  
+
+### Econometric model 
+
+### Results 
+
+
+```{r cars}
+summary(cars)
+```
+
+## State-level factors 
+
+### Data sources and variables descriptors  
+
+### Econometric model 
+
+### Results
+
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

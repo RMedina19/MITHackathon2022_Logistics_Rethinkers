@@ -9,7 +9,6 @@
 # Updated on:     October 15th, 2022 
 #------------------------------------------------------------------------------#
 
-
 # Microdata source: 
 # https://www.census.gov/programs-surveys/household-pulse-survey/datasets.html#phase3.6
 
@@ -34,7 +33,6 @@ p_load(readr, readxl, tidyverse, dplyr, lubridate, openxlsx, janitor,
 # Clean workspace
 rm(list=ls())
 
-
 # Define path functions
 paste_inp <- function(x){paste0("02_raw_data/03_household_pulse_survey/"  , x)}
 paste_out <- function(x){paste0("03_clean_data/03_household_pulse_survey/", x)}
@@ -45,7 +43,7 @@ paste_fig <- function(x){paste0("04_figures/03_household_pulse_survey/"   , x)}
 
 # Import data on likelihood of being evicted from the Census Data 
 df_raw1 <- read_xlsx(paste_inp("pulse2022_puf_49.xlsx"), skip = 0)
-df_raw2 <- read_xlsx(paste_inp("pulse2022_repwgt_puf_49.xlsx"), skip = 0)
+# df_raw2 <- read_xlsx(paste_inp("pulse2022_repwgt_puf_49.xlsx"), skip = 0)
 
 
 # 2. Data wrangling ------------------------------------------------------------
@@ -138,9 +136,9 @@ df_clean <- df_raw1 |>
     dis_selfcare    = if_else(selfcare    >= 2, 1, 0), 
     dis_understand  = if_else(understand  >= 2, 1, 0), 
     disability_phys = if_else(
-      (dis_seeing == 1 | dis_hearing == 1 | dis_remembering == 1 | dis_mobility == 1), 1, 0), 
-  disability_mental = if_else(
-    (dis_selfcare == 1 | dis_understand == 1), 1, 0))  |>
+      (dis_seeing == 1 | dis_hearing == 1 |  dis_mobility == 1), 1, 0), 
+    disability_mental = if_else(
+    (dis_remembering == 1 | dis_selfcare == 1 | dis_understand == 1), 1, 0))  |>
   # Renting cleaning
   rename(monthly_rent = trentamt)  |> 
   mutate(
@@ -206,7 +204,7 @@ tema <-  theme_minimal() +
     legend.text      = element_text(size = 8, family="Fira Sans"),
     axis.title.x     = element_text(size = 8, hjust = .5, margin = margin(1,1,1,1), family="Fira Sans"),
     axis.title.y     = element_text(size = 10, hjust = .5, margin = margin(1,1,1,1), family="Fira Sans", angle = 90),
-    axis.text.y      = element_text(size = 8, family="Fira Sans", angle=0, hjust=.5),
+    axis.text.y      = element_text(size = 7, family="Fira Sans", angle=0, hjust=1),
     axis.text.x      = element_text(size = 9, family="Fira Sans", angle=0, hjust=.5),
     strip.background = element_rect(fill = "white", colour = NA),
     strip.text.x     = element_text(size = 8, family = "Fira Sans", face = "bold", color = "black"),
@@ -248,18 +246,42 @@ df_data <- df_coefficients |>
       variable = forcats::fct_inorder(variable), 
       sign = if_else(coefficient > 0, "positive", "negative"))
 
+# df_personal_traits_coefficients <- df_data
+# 
+# write.csv(df_personal_traits_coefficients, file = paste_out("df_personal_traits_coefficients.csv"))
+# save(df_personal_traits_coefficients, file = paste_out("df_personal_traits_coefficients.RData"))
+
+# Only the plot
+load(paste_out("df_personal_traits_coefficients.RData"))
+
+df_data <- df_personal_traits_coefficients |>
+  filter(variable != "(Intercept)") |>
+  mutate(variable = case_when(
+    str_detect(variable, "unemployed") ~ "Faced unemployment in the last month", 
+    variable == "Trans"                ~ "Being trans", 
+    variable == "Single caregivers with children" ~ "Being a single caregiver of children", 
+    str_detect(variable, "disability") ~ "Having a physical disability", 
+    str_detect(variable, "Rent")       ~ "Faced a rent increase during the last year", 
+    variable == "Black"                ~ "Being Black", 
+    str_detect(variable, "One")        ~ "An extra month delay in rent payment", 
+    variable == "Hispanic"             ~ "Being Hispanic", 
+    variable == "White"                ~ "Being White", 
+    variable == "Asian"                ~ "Being Asian", 
+    str_detect(variable, "Not")        ~ "Diverse sexual orientation", 
+    str_detect(variable, "without")    ~ "Being a single without children", 
+    variable == "College"              ~ "Having a college degree", 
+    str_detect(variable, "Households") ~ "Having more than one caregiver for children"
+
+      )) |>
+  arrange(coefficient) |>
+  mutate(
+    variable = forcats::fct_inorder(variable), 
+    sign = if_else(coefficient > 0, "positive", "negative"), 
+    coefficient = coefficient*100,
+    coefficient_text = paste0(if_else(sign == "positive", "+", ""), round(coefficient, 1), " pp"))
 
 
-df_personal_traits_coefficients <- df_data
-
-write.csv(df_personal_traits_coefficients, file = paste_out("df_personal_traits_coefficients.csv"))
-save(df_personal_traits_coefficients, file = paste_out("df_personal_traits_coefficients.RData"))
-
-
-
-
-
- # Plot
+# Plot
 ggplot(
   # Data 
   df_data, 
@@ -267,21 +289,21 @@ ggplot(
        aes(x = coefficient, y = variable, fill = sign)) +
   # Geoms
   geom_col() +
-  geom_text(aes(label = scales::percent(coefficient, accuracy = 0.1)), 
-            nudge_x = if_else(df_data$coefficient > 0, 0.08, -0.08), 
-            family = "Fira Sans") +
+  geom_text(aes(label = coefficient_text), 
+            nudge_x = if_else(df_data$coefficient > 0, 5, -5), 
+            family = "Fira Sans", size = 3) +
   # Etiquetas
   labs(
-    title = "How does the likelihood of being evicted changes?", 
+    title = "How does the likelihood of being evicted change?", 
     subtitle = "For significant eviction-risk personal factors\n", 
-    x = "\nChange in percentage points on the likelihood of being evicted\n", 
+    x = "\nChange in percentage points (pp) on the likelihood of being evicted (form 0 to 100)\n", 
     y = "", 
     caption = v_caption, 
   ) +
   # Scales
-  scale_x_continuous(label = scales::percent_format(), limits = c(-0.4, 0.5)) +
-  scale_y_discrete(label = scales::wrap_format(25)) +
-  scale_fill_manual(values = c(v_colors[1], v_colors[4])) +
+  scale_x_continuous(limits = c(-40, 50)) +
+  # scale_y_discrete(label = scales::wrap_format(35)) +
+  scale_fill_manual(values = c("#34c0c4", "#1183a1")) +
   # Theme
   tema +
   theme(legend.position = "none")
@@ -289,7 +311,7 @@ ggplot(
 # ---- Save figure
 ggsave(paste_fig("01_significan_risk_factors.png"), 
        device = "png", type = "cairo", 
-       width = 5, height = 6)
+       width = 8, height = 4)
 
 ## 4. Predicting risk ----------------------------------------------------------
 
@@ -297,14 +319,20 @@ v_names <- unique(df_coefficients$variable)
 
 v_intercept <- df_coefficients$coefficient[df_coefficients$variable == v_names[1]]
 
-
 # Users' data
-v_trans       <- 0 # Trans person == 1, Cis person == 0 
-v_unemployed  <- 0 # Unemployed person == 1, Employed person == 0
+v_age         <- 24 # Numeric variable, ranging from 18 to 99
+v_trans       <- 0  # Binary variable,  Trans person == 1, Cis person == 0 
+v_unemployed  <- 0  # Unemployed person == 1, Employed person == 0
 v_trans       <- 1
 v_singe       <- 1
 v_children    <- 0
 
-# Coefficients 
-coeff_intercept  <- df_coefficients$coefficient[df_coefficients$variable == v_names[1]]
+# Coefficients estimated from the model 
+coeff_intercept   <- df_coefficients$coefficient[df_coefficients$variable == "(Intercept)"]
+coeff_trans       <- df_coefficients$coefficient[df_coefficients$variable == "Trans"]
+coeff_unemployed  <- df_coefficients$coefficient[df_coefficients$variable == "Unemployed"]
+ 
+
+# Estimated risk 
+v_personal_risk <- coeff_intercept + (v_age*coeff_age) + (v_trans*coeff_trans) + (number_months*coeff_months) + ((single*kids)*coeff_single_kids)
 
