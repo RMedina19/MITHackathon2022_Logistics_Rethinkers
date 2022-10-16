@@ -37,6 +37,7 @@ rm(list=ls())
 paste_inp <- function(x){paste0("02_raw_data/03_household_pulse_survey/"  , x)}
 paste_out <- function(x){paste0("03_clean_data/03_household_pulse_survey/", x)}
 paste_fig <- function(x){paste0("04_figures/03_household_pulse_survey/"   , x)}
+paste_rep <- function(x){paste0("05_reports/"   , x)}
 
 
 # 1. Load data -----------------------------------------------------------------
@@ -156,6 +157,8 @@ df_clean <- df_raw1 |>
 sum(is.na(df_clean$trans))
 table(df_clean$age)
 
+save(df_clean, file = paste_rep("df_clean.RData"))
+
 # single caregiver (single*kids)
 
 ## 3. Modeling -----------------------------------------------------------------
@@ -193,19 +196,19 @@ df_coefficients <- as.data.frame(m1$coefficients) |>
 tema <-  theme_minimal() +
   theme(
     text             = element_text(family = "Fira Sans", color = "black"),
-    plot.title       = element_text(size = 10, face = "bold", hjust = 0.5, margin = margin(10,5,5,5), family="Fira Sans", color = "black"),
-    plot.subtitle    = element_text(size = 8, color = "#666666", hjust = 0.5, margin = margin(5, 5, 5, 5), family="Fira Sans"),
+    plot.title       = element_text(size = 12, face = "bold", hjust = 0.5, margin = margin(10,5,5,5), family="Fira Sans", color = "black"),
+    plot.subtitle    = element_text(size = 10, color = "#666666", hjust = 0.5, margin = margin(5, 5, 5, 5), family="Fira Sans"),
     plot.caption     = element_text(hjust = .5, size = 6, family = "Fira Sans", color = "black"),
     panel.grid       = element_line(linetype = 2),
     panel.grid.major = element_blank(), 
     panel.grid.minor = element_blank(),
     legend.position  = "top",
-    legend.title     = element_text(size = 6, face = "bold", family="Fira Sans"),
-    legend.text      = element_text(size = 8, family="Fira Sans"),
-    axis.title.x     = element_text(size = 8, hjust = .5, margin = margin(1,1,1,1), family="Fira Sans"),
+    legend.title     = element_text(size = 8, face = "bold", family="Fira Sans"),
+    legend.text      = element_text(size = 10, family="Fira Sans"),
+    axis.title.x     = element_text(size = 10, hjust = .5, margin = margin(1,1,1,1), family="Fira Sans"),
     axis.title.y     = element_text(size = 10, hjust = .5, margin = margin(1,1,1,1), family="Fira Sans", angle = 90),
-    axis.text.y      = element_text(size = 7, family="Fira Sans", angle=0, hjust=1),
-    axis.text.x      = element_text(size = 9, family="Fira Sans", angle=0, hjust=.5),
+    axis.text.y      = element_text(size = 12, family="Fira Sans", angle=0, hjust=1),
+    axis.text.x      = element_text(size = 12, family="Fira Sans", angle=0, hjust=.5),
     strip.background = element_rect(fill = "white", colour = NA),
     strip.text.x     = element_text(size = 8, family = "Fira Sans", face = "bold", color = "black"),
     strip.text.y     = element_text(size = 8, family = "Fira Sans", face = "bold", color = "black")) +
@@ -290,8 +293,8 @@ ggplot(
   # Geoms
   geom_col() +
   geom_text(aes(label = coefficient_text), 
-            nudge_x = if_else(df_data$coefficient > 0, 5, -5), 
-            family = "Fira Sans", size = 3) +
+            nudge_x = if_else(df_data$coefficient > 0, 11, -10), 
+            family = "Fira Sans", size = 5) +
   # Etiquetas
   labs(
     title = "How does the likelihood of being evicted change?", 
@@ -301,8 +304,8 @@ ggplot(
     caption = v_caption, 
   ) +
   # Scales
-  scale_x_continuous(limits = c(-40, 50)) +
-  # scale_y_discrete(label = scales::wrap_format(35)) +
+  scale_x_continuous(limits = c(-45, 55)) +
+  scale_y_discrete(label = scales::wrap_format(35)) +
   scale_fill_manual(values = c("#34c0c4", "#1183a1")) +
   # Theme
   tema +
@@ -311,7 +314,7 @@ ggplot(
 # ---- Save figure
 ggsave(paste_fig("01_significan_risk_factors.png"), 
        device = "png", type = "cairo", 
-       width = 8, height = 4)
+       width = 7, height = 8)
 
 ## 4. Predicting risk ----------------------------------------------------------
 
