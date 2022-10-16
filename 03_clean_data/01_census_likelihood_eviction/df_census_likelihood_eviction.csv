@@ -54,31 +54,31 @@
 "53","Months behind on rental payments","Did not report","Not very likely",42276,0.0795105538242214
 "54","Months behind on rental payments","Did not report","Not likely at all",163871,0.308200254653444
 "55","Months behind on rental payments","Did not report","Did not report",280113,0.526822304933393
-"56","Household rental assistance throught state or local gobernment","Applied and received assistance","Very likely",139843,0.173151881054738
-"57","Household rental assistance throught state or local gobernment","Applied and received assistance","Somewhat likely",302076,0.374026784476098
-"58","Household rental assistance throught state or local gobernment","Applied and received assistance","Not very likely",218985,0.271144531172613
-"59","Household rental assistance throught state or local gobernment","Applied and received assistance","Not likely at all",146728,0.181676803296551
-"60","Household rental assistance throught state or local gobernment","Applied and received assistance","Did not report",NA,NA
-"61","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Very likely",512717,0.404116061878861
-"62","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Somewhat likely",338620,0.266895345528664
-"63","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Not very likely",348153,0.274409117098343
-"64","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Not likely at all",69248,0.054580263679549
-"65","Household rental assistance throught state or local gobernment","Applied for assistance and waiting for response","Did not report",NA,NA
-"66","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Very likely",316107,0.351967959488394
-"67","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Somewhat likely",247565,0.275650168742686
-"68","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Not very likely",255123,0.284065590855494
-"69","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Not likely at all",79318,0.0883162809134263
-"70","Household rental assistance throught state or local gobernment","Applied for assistance and application was denied","Did not report",NA,NA
-"71","Household rental assistance throught state or local gobernment","Did not apply for assistance","Very likely",423945,0.115123954890538
-"72","Household rental assistance throught state or local gobernment","Did not apply for assistance","Somewhat likely",566618,0.153867376834653
-"73","Household rental assistance throught state or local gobernment","Did not apply for assistance","Not very likely",1502466,0.408000632177681
-"74","Household rental assistance throught state or local gobernment","Did not apply for assistance","Not likely at all",1189480,0.323008036097128
-"75","Household rental assistance throught state or local gobernment","Did not apply for assistance","Did not report",NA,NA
-"76","Household rental assistance throught state or local gobernment","Did not report","Very likely",10350,0.025597396237801
-"77","Household rental assistance throught state or local gobernment","Did not report","Somewhat likely",41940,0.103725101276655
-"78","Household rental assistance throught state or local gobernment","Did not report","Not very likely",NA,NA
-"79","Household rental assistance throught state or local gobernment","Did not report","Not likely at all",19073,0.0471709312505874
-"80","Household rental assistance throught state or local gobernment","Did not report","Did not report",332976,0.823509044413337
+"56","Household rental assistance through state or local government","Applied and received assistance","Very likely",139843,0.173151881054738
+"57","Household rental assistance through state or local government","Applied and received assistance","Somewhat likely",302076,0.374026784476098
+"58","Household rental assistance through state or local government","Applied and received assistance","Not very likely",218985,0.271144531172613
+"59","Household rental assistance through state or local government","Applied and received assistance","Not likely at all",146728,0.181676803296551
+"60","Household rental assistance through state or local government","Applied and received assistance","Did not report",NA,NA
+"61","Household rental assistance through state or local government","Applied for assistance and waiting for response","Very likely",512717,0.404116061878861
+"62","Household rental assistance through state or local government","Applied for assistance and waiting for response","Somewhat likely",338620,0.266895345528664
+"63","Household rental assistance through state or local government","Applied for assistance and waiting for response","Not very likely",348153,0.274409117098343
+"64","Household rental assistance through state or local government","Applied for assistance and waiting for response","Not likely at all",69248,0.054580263679549
+"65","Household rental assistance through state or local government","Applied for assistance and waiting for response","Did not report",NA,NA
+"66","Household rental assistance through state or local government","Applied for assistance and application was denied","Very likely",316107,0.351967959488394
+"67","Household rental assistance through state or local government","Applied for assistance and application was denied","Somewhat likely",247565,0.275650168742686
+"68","Household rental assistance through state or local government","Applied for assistance and application was denied","Not very likely",255123,0.284065590855494
+"69","Household rental assistance through state or local government","Applied for assistance and application was denied","Not likely at all",79318,0.0883162809134263
+"70","Household rental assistance through state or local government","Applied for assistance and application was denied","Did not report",NA,NA
+"71","Household rental assistance through state or local government","Did not apply for assistance","Very likely",423945,0.115123954890538
+"72","Household rental assistance through state or local government","Did not apply for assistance","Somewhat likely",566618,0.153867376834653
+"73","Household rental assistance through state or local government","Did not apply for assistance","Not very likely",1502466,0.408000632177681
+"74","Household rental assistance through state or local government","Did not apply for assistance","Not likely at all",1189480,0.323008036097128
+"75","Household rental assistance through state or local government","Did not apply for assistance","Did not report",NA,NA
+"76","Household rental assistance through state or local government","Did not report","Very likely",10350,0.025597396237801
+"77","Household rental assistance through state or local government","Did not report","Somewhat likely",41940,0.103725101276655
+"78","Household rental assistance through state or local government","Did not report","Not very likely",NA,NA
+"79","Household rental assistance through state or local government","Did not report","Not likely at all",19073,0.0471709312505874
+"80","Household rental assistance through state or local government","Did not report","Did not report",332976,0.823509044413337
 "81","Age","18 - 24","Very likely",38836,0.0995241109433982
 "82","Age","18 - 24","Somewhat likely",69970,0.179310486216644
 "83","Age","18 - 24","Not very likely",219253,0.561874546726565
@@ -599,28 +599,28 @@
 "598","Difficulty with self-care","Did not report","Not very likely",NA,NA
 "599","Difficulty with self-care","Did not report","Not likely at all",835,0.596002855103497
 "600","Difficulty with self-care","Did not report","Did not report",NA,NA
-"601","Difficulty with self-care","No difficulty","Very likely",1290916,0.212361213903442
-"602","Difficulty with self-care","No difficulty","Somewhat likely",1097104,0.18047830936972
-"603","Difficulty with self-care","No difficulty","Not very likely",2060957,0.339036258225009
-"604","Difficulty with self-care","No difficulty","Not likely at all",1420705,0.233712060582322
-"605","Difficulty with self-care","No difficulty","Did not report",209187,0.0344121579195077
-"606","Difficulty with self-care","Some difficulty","Very likely",77687,0.0968747973643651
-"607","Difficulty with self-care","Some difficulty","Somewhat likely",304912,0.38022176443888
-"608","Difficulty with self-care","Some difficulty","Not very likely",217033,0.270637660050977
-"609","Difficulty with self-care","Some difficulty","Not likely at all",78510,0.0979010689185617
-"610","Difficulty with self-care","Some difficulty","Did not report",123789,0.154363462238694
-"611","Difficulty with self-care","A lot of difficulty","Very likely",32880,0.18702433364049
-"612","Difficulty with self-care","A lot of difficulty","Somewhat likely",93901,0.534117151860574
-"613","Difficulty with self-care","A lot of difficulty","Not very likely",46736,0.265838481052979
-"614","Difficulty with self-care","A lot of difficulty","Not likely at all",2289,0.0130200334459575
-"615","Difficulty with self-care","A lot of difficulty","Did not report",NA,NA
-"616","Difficulty with self-care","Cannot do at all","Very likely",1478,0.312936692780013
-"617","Difficulty with self-care","Cannot do at all","Somewhat likely",902,0.190980309125556
-"618","Difficulty with self-care","Cannot do at all","Not very likely",NA,NA
-"619","Difficulty with self-care","Cannot do at all","Not likely at all",2344,0.496294727927165
-"620","Difficulty with self-care","Cannot do at all","Did not report",NA,NA
-"621","Difficulty with self-care","Did not report","Very likely",NA,NA
-"622","Difficulty with self-care","Did not report","Somewhat likely",NA,NA
-"623","Difficulty with self-care","Did not report","Not very likely",NA,NA
-"624","Difficulty with self-care","Did not report","Not likely at all",NA,NA
-"625","Difficulty with self-care","Did not report","Did not report",NA,NA
+"601","Difficulty understanding of being understood","No difficulty","Very likely",1290916,0.212361213903442
+"602","Difficulty understanding of being understood","No difficulty","Somewhat likely",1097104,0.18047830936972
+"603","Difficulty understanding of being understood","No difficulty","Not very likely",2060957,0.339036258225009
+"604","Difficulty understanding of being understood","No difficulty","Not likely at all",1420705,0.233712060582322
+"605","Difficulty understanding of being understood","No difficulty","Did not report",209187,0.0344121579195077
+"606","Difficulty understanding of being understood","Some difficulty","Very likely",77687,0.0968747973643651
+"607","Difficulty understanding of being understood","Some difficulty","Somewhat likely",304912,0.38022176443888
+"608","Difficulty understanding of being understood","Some difficulty","Not very likely",217033,0.270637660050977
+"609","Difficulty understanding of being understood","Some difficulty","Not likely at all",78510,0.0979010689185617
+"610","Difficulty understanding of being understood","Some difficulty","Did not report",123789,0.154363462238694
+"611","Difficulty understanding of being understood","A lot of difficulty","Very likely",32880,0.18702433364049
+"612","Difficulty understanding of being understood","A lot of difficulty","Somewhat likely",93901,0.534117151860574
+"613","Difficulty understanding of being understood","A lot of difficulty","Not very likely",46736,0.265838481052979
+"614","Difficulty understanding of being understood","A lot of difficulty","Not likely at all",2289,0.0130200334459575
+"615","Difficulty understanding of being understood","A lot of difficulty","Did not report",NA,NA
+"616","Difficulty understanding of being understood","Cannot do at all","Very likely",1478,0.312936692780013
+"617","Difficulty understanding of being understood","Cannot do at all","Somewhat likely",902,0.190980309125556
+"618","Difficulty understanding of being understood","Cannot do at all","Not very likely",NA,NA
+"619","Difficulty understanding of being understood","Cannot do at all","Not likely at all",2344,0.496294727927165
+"620","Difficulty understanding of being understood","Cannot do at all","Did not report",NA,NA
+"621","Difficulty understanding of being understood","Did not report","Very likely",NA,NA
+"622","Difficulty understanding of being understood","Did not report","Somewhat likely",NA,NA
+"623","Difficulty understanding of being understood","Did not report","Not very likely",NA,NA
+"624","Difficulty understanding of being understood","Did not report","Not likely at all",NA,NA
+"625","Difficulty understanding of being understood","Did not report","Did not report",NA,NA
