@@ -10,13 +10,13 @@ ReThinkers: Regina Isabel Medina Rosales, Sanhitha Cherukupally, Tasaduq Soomro,
 
 ## Software
 
-####For estimation of econometric modeling we used the following R-Packages:
+#### For estimation of econometric modeling we used the following R-Packages:
 - A grammar of data manipulation (dplyr package[@wickham2015dplyr])
 - Elegant graphics for data analysis (ggplot2 package[@wickham2011ggplot2])
 - Analysis and Presentation of Social Scientific Data (jtools package[@long2017package])
 - Econometric modeling (stats package[@R-core])
 - GAM and Generalized Ridge Regression for R (mgcv package[@wood2012mgcv])
 
-####And the following Python-Packages
+#### And the following Python-Packages
 - An easy package to access to the U.S. Census Bureau’s API (censusdata)
 - Nn interactive, open-source, and browser-based graphing library (plotly)
