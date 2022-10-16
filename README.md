@@ -22,5 +22,5 @@ ReThinkers: Regina Isabel Medina Rosales, Sanhitha Cherukupally, Tasaduq Soomro,
 - Nn interactive, open-source, and browser-based graphing library (plotly)
 
 ## Some of the Results
-![Eviction based on sexual orientation](04_figures/01_census_likelihood_eviction/07.png)
-![Likelihood of being evicted](04_figures/03_household_pulse_survey/01_significan_risk_factors.png)
+![Eviction based on sexual orientation](04_figures/01_census_likelihood_eviction/07.png =250x)
+![Likelihood of being evicted](04_figures/03_household_pulse_survey/01_significan_risk_factors.png =250x)
